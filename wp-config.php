@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'bitnami_wordpress' );
+define( 'DB_NAME', 'website' );
 
 /** MySQL database username */
-define( 'DB_USER', 'bn_wordpress' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '92124b1184' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '127.0.0.1:3306' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '3dc6b25ccdf7994332016778e763732d8f451a207b520f1840929e66a8d34520');
-define('SECURE_AUTH_KEY',  '6e1feeaab9a5e83da49d397b008bbbd5a60fbef54f67d181a92f86562a56dcde');
-define('LOGGED_IN_KEY',    '15e827064397bb1ac6b3a1c8773b3399c2896680566fca6d9f299d17bafdb22e');
-define('NONCE_KEY',        'bb5b2c7aba806ff8fbf0cd905585f32952d840a7051762319f3cea576329d84b');
-define('AUTH_SALT',        'adb39066d0c9c1e530206bb528164601d2f0fe2d3e8f097640a9dfac31acb75c');
-define('SECURE_AUTH_SALT', 'c412d52654e1e952d1ebec67d08196760f7c41df08fdc7e024a0cc61d02020db');
-define('LOGGED_IN_SALT',   '9c27785113e4905eb4f118f9357e8a1c8f28b8b61ede6eb05f44b0e4aceaf44d');
-define('NONCE_SALT',       '3022a763a6b530bcf3bc58db77f3781bcecc4b322473deea524e45f5b71089b9');
+define( 'AUTH_KEY',         '?K:*Non/Q4~=Vx~KQz$W13R<rjn(`Z5tsfRn0nq[yL1Z7J01HL]rQP[+S!<QW=;,' );
+define( 'SECURE_AUTH_KEY',  'u<;vG*:eA/d$Q1<x}&_**IJP-AenI^:dv#|`Jm.Kkd`levZOOa@qWHODFv2@t^v$' );
+define( 'LOGGED_IN_KEY',    '`q=_9<8XgZ*:i{y7&UJ :nOh=#5&kcvg#}yP-WX8_e|D8INv!nS~<_f<%pOb/*4g' );
+define( 'NONCE_KEY',        '2C,-.Hcm<^Rp^H!Zj|R*cWJT}Z1U?B@EHeof`0?ab>q4,!g)I8fMwq,Ys^:<m@2&' );
+define( 'AUTH_SALT',        '_4CN2FgQ}vYa{o~q;59s5J@ll7yO5_Hh2WtqAQ6c4kKrNx=vjch]-~<Hi5$+Ux`Y' );
+define( 'SECURE_AUTH_SALT', '`iE#UTvM&2Fwc}.z*,6l9}{{Hj245#`% 2SCq7kkR?GG zGZ2u4Q dWRXs/(859d' );
+define( 'LOGGED_IN_SALT',   '_f)*K^Vt&E)i0CGBI1+OZ%P&@*dUHB7XWZ,%ei30V[v*+|UyE$ZRTEin+W7_SVf-' );
+define( 'NONCE_SALT',       'K;p)QT^FA|[c1(}_7hyB1K=Y?ba4xvmEK)o#r2KeF#Y-rx:>=Yl,g{aj@@]:NRQc' );
 
 /**#@-*/
 
@@ -80,21 +80,6 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* That's all, stop editing! Happy publishing. */
-/**
- * The WP_SITEURL and WP_HOME options are configured to access from any hostname or IP address.
- * If you want to access only from an specific domain, you can modify them. For example:
- *  define('WP_HOME','http://example.com');
- *  define('WP_SITEURL','http://example.com');
- *
-*/
-
-if ( defined( 'WP_CLI' ) ) {
-    $_SERVER['HTTP_HOST'] = 'localhost';
-}
-
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -103,23 +88,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
-define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-5.5.1-2/apps/wordpress/tmp');
-
-
-//  Disable pingback.ping xmlrpc method to prevent Wordpress from participating in DDoS attacks
-//  More info at: https://docs.bitnami.com/general/apps/wordpress/troubleshooting/xmlrpc-and-pingback/
-
-if ( !defined( 'WP_CLI' ) ) {
-    // remove x-pingback HTTP header
-    add_filter('wp_headers', function($headers) {
-        unset($headers['X-Pingback']);
-        return $headers;
-    });
-    // disable pingbacks
-    add_filter( 'xmlrpc_methods', function( $methods ) {
-            unset( $methods['pingback.ping'] );
-            return $methods;
-    });
-    add_filter( 'auto_update_translation', '__return_false' );
-}

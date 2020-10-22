@@ -26,10 +26,10 @@ define( 'DB_NAME', 'bitnami_wordpress' );
 define( 'DB_USER', 'bn_wordpress' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '92124b1184' );
+define( 'DB_PASSWORD', '624f4dc22c' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '127.0.0.1:3306' );
+define( 'DB_HOST', '127.0.0.1:3307' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '3dc6b25ccdf7994332016778e763732d8f451a207b520f1840929e66a8d34520');
-define('SECURE_AUTH_KEY',  '6e1feeaab9a5e83da49d397b008bbbd5a60fbef54f67d181a92f86562a56dcde');
-define('LOGGED_IN_KEY',    '15e827064397bb1ac6b3a1c8773b3399c2896680566fca6d9f299d17bafdb22e');
-define('NONCE_KEY',        'bb5b2c7aba806ff8fbf0cd905585f32952d840a7051762319f3cea576329d84b');
-define('AUTH_SALT',        'adb39066d0c9c1e530206bb528164601d2f0fe2d3e8f097640a9dfac31acb75c');
-define('SECURE_AUTH_SALT', 'c412d52654e1e952d1ebec67d08196760f7c41df08fdc7e024a0cc61d02020db');
-define('LOGGED_IN_SALT',   '9c27785113e4905eb4f118f9357e8a1c8f28b8b61ede6eb05f44b0e4aceaf44d');
-define('NONCE_SALT',       '3022a763a6b530bcf3bc58db77f3781bcecc4b322473deea524e45f5b71089b9');
+define('AUTH_KEY',         'e34f84da615c904086c5a61ebaf4262a9740ba472122a9c702ee270a3e3a152b');
+define('SECURE_AUTH_KEY',  'e4e07574f5e1b091d3b8062b8c1339c99d4aac43bc140a9a8b57e743cb0129f9');
+define('LOGGED_IN_KEY',    'bcb76a6fbc9c024622ed3aa7aa4da6a287db6e1a2191e1cde2f27041ad0730f0');
+define('NONCE_KEY',        'b208c1b3f07758a342d6529112c2db1f8c6e74490b7faab68e151e2e01693ccf');
+define('AUTH_SALT',        '8675be1c25a6829d7ed02229fc11e1822531d2d4c33a540f57bb1cdebdcb52cc');
+define('SECURE_AUTH_SALT', '023713cdb9766729cc8e3818f7600d33558d6918256c3a832f65a679287f4663');
+define('LOGGED_IN_SALT',   '83fb984666a8017b60c577fa89050d98382f2d4978d12b92351b8842b3212828');
+define('NONCE_SALT',       'e369407057cb2c054a54a1ae3d4bf183dccd996f10e902f7dc769c87c815309b');
 
 /**#@-*/
 
@@ -104,7 +104,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
-define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-5.5.1-2/apps/wordpress/tmp');
+define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-5.5.1-1/apps/wordpress/tmp');
 
 
 //  Disable pingback.ping xmlrpc method to prevent Wordpress from participating in DDoS attacks

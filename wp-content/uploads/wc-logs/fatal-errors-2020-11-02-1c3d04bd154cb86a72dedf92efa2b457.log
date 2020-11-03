@@ -1,0 +1,4 @@
+2020-11-02T06:42:47+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-admin/includes/class-wp-screen.php on line 686
+
+2020-11-02T10:16:30+00:00 CRITICAL syntax error, unexpected 'Danh' (T_STRING), expecting ',' or ')' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/template-parts/posts/partials/archive-title.php on line 8
+

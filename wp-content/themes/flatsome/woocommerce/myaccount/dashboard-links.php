@@ -1,8 +1,8 @@
 <ul class="dashboard-links">
-<?php if ( has_nav_menu( 'my_account' ) ) { ?>
+<?php if ( has_nav_menu( 'wp-admin' ) ) { ?>
   <?php  
     wp_nav_menu(array(
-      'theme_location' => 'my_account',
+      'theme_location' => 'wp-admin',
       'container'      => false,
       'items_wrap' => '%3$s',
       'depth' => 1

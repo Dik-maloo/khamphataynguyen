@@ -1,3 +1,6 @@
+--- 3.12.3 ---
+FIXED: Instagram API change affecting images from certain posts.
+
 --- 3.12.2 ---
 FIXED: Countdown background color.
 FIXED: Older admin assets could remain in browser cache (Advanced Options).

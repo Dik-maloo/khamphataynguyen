@@ -1,0 +1,24 @@
+2020-11-03T01:20:50+00:00 CRITICAL Uncaught Error: Call to undefined method _WP_Editors::enqueue_default_editor() in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-includes/general-template.php:3557
+Stack trace:
+#0 /home/u350701817/domains/khamphataynguyen.com/public_html/wp-admin/edit-form-blocks.php(367): wp_enqueue_editor()
+#1 /home/u350701817/domains/khamphataynguyen.com/public_html/wp-admin/post.php(187): require('/home/u35070181...')
+#2 {main}
+  thrown in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-includes/general-template.php on line 3557
+
+2020-11-03T01:21:02+00:00 CRITICAL Uncaught Error: Call to undefined method _WP_Editors::enqueue_default_editor() in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-includes/general-template.php:3557
+Stack trace:
+#0 /home/u350701817/domains/khamphataynguyen.com/public_html/wp-admin/edit-form-blocks.php(367): wp_enqueue_editor()
+#1 /home/u350701817/domains/khamphataynguyen.com/public_html/wp-admin/post.php(187): require('/home/u35070181...')
+#2 {main}
+  thrown in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-includes/general-template.php on line 3557
+
+2020-11-03T03:07:33+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/woocommerce/myaccount/account-links.php on line 20
+
+2020-11-03T03:13:19+00:00 CRITICAL syntax error, unexpected '.' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/woocommerce/myaccount/account-links.php on line 20
+
+2020-11-03T03:14:02+00:00 CRITICAL syntax error, unexpected '.' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/woocommerce/myaccount/account-links.php on line 20
+
+2020-11-03T03:15:49+00:00 CRITICAL syntax error, unexpected '/' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/woocommerce/myaccount/account-links.php on line 20
+
+2020-11-03T03:21:42+00:00 CRITICAL syntax error, unexpected ';' in /home/u350701817/domains/khamphataynguyen.com/public_html/wp-content/themes/flatsome/woocommerce/myaccount/account-links.php on line 29
+

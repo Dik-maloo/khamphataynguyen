@@ -20,7 +20,8 @@
 			<p class="from_the_blog_comments uppercase xxsmall">
 				<?php
 				$comments_number = get_comments_number( get_the_ID() );
-				printf( _n( '%1$s Comment', '%1$s Comments', $comments_number, 'flatsome' ),
+				printf( _n( '%1$s Bình luận', '%1$s Bình luận', $comments_number, 'flatsome' ),
+				
 					number_format_i18n( $comments_number )
 				);
 				?>

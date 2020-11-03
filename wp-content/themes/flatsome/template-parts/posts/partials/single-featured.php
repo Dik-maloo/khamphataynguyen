@@ -11,6 +11,7 @@
   	<div class="page-title-inner container  flex-row  dark is-large" style="min-height: 300px">
   	 	<div class="flex-col flex-center text-center">
   			<?php get_template_part( 'template-parts/posts/partials/entry', 'title');  ?>
+			
   	 	</div>
   	</div>
   </div>

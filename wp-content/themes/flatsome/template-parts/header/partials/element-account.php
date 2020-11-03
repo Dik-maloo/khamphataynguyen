@@ -7,7 +7,7 @@
 <?php if($icon_style && $icon_style !== 'image' && $icon_style !== 'plain') echo '<div class="header-button">'; ?>
 
 <?php if ( is_user_logged_in() ) { ?>
-<a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="account-link account-login
+<a  class="account-link account-login
   <?php if($icon_style && $icon_style !== 'image') echo get_flatsome_icon_class($icon_style, 'small'); ?>"
   title="<?php _e('My account', 'woocommerce'); ?>">
 

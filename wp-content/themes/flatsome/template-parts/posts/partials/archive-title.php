@@ -5,7 +5,7 @@
 		<?php
 
 			if ( is_category() ) :
-				printf( __( 'Category Archives: %s', 'flatsome' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+				printf( __( ' %s', 'flatsome' ), 'Danh mục: '. '<span>' . single_cat_title( '', false ) . '</span>' );
 
 			elseif ( is_tag() ) :
 				printf( __( 'Tag Archives: %s', 'flatsome' ), '<span>' . single_tag_title( '', false ) . '</span>' );

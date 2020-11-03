@@ -23,11 +23,11 @@ msgstr "Bắt đầu"
 msgid "Connect to Template Library"
 msgstr "Kết nối đến thư viện mẫu"
 
-#: core/editor/editor.php:600
+#: core/editor/editor.php:601
 msgid "Done"
 msgstr "Hoàn thành"
 
-#: includes/widgets/image.php:365 includes/controls/groups/background.php:690
+#: includes/controls/groups/background.php:690 includes/widgets/image.php:365
 msgid "Contain"
 msgstr "Chứa"
 
@@ -35,8 +35,8 @@ msgstr "Chứa"
 msgid "Background Position"
 msgstr "Vị trí ảnh nền"
 
-#: includes/widgets/social-icons.php:276
 #: includes/controls/groups/background.php:688
+#: includes/widgets/social-icons.php:276
 msgid "Auto"
 msgstr "Tự động"
 
@@ -48,7 +48,7 @@ msgstr "Bật"
 msgid "Background Size"
 msgstr "Kích thước ảnh nền"
 
-#: core/editor/editor.php:643
+#: core/editor/editor.php:644
 msgid "More"
 msgstr "Thêm"
 
@@ -80,7 +80,7 @@ msgstr "Bật lightbox trong trình soạn thảo"
 msgid "Pasted"
 msgstr "Tạm dừng"
 
-#: includes/widgets/image.php:364 includes/controls/groups/background.php:689
+#: includes/controls/groups/background.php:689 includes/widgets/image.php:364
 msgid "Cover"
 msgstr "Bao bọc"
 
@@ -119,8 +119,8 @@ msgctxt "Background Control"
 msgid "Slideshow"
 msgstr "Trình chiếu"
 
-#: includes/editor-templates/panel.php:30
-#: includes/editor-templates/panel.php:182 core/kits/views/panel.php:12
+#: core/kits/views/panel.php:12 includes/editor-templates/panel.php:30
+#: includes/editor-templates/panel.php:182
 msgid "Need Help"
 msgstr "Cần trợ giúp"
 
@@ -133,7 +133,7 @@ msgstr "Chơi một lần"
 msgid "Upload SVG"
 msgstr "Tải lên SVG"
 
-#: includes/controls/media.php:154
+#: includes/controls/media.php:163
 msgid "Choose Video"
 msgstr "Chọn Video"
 
@@ -149,11 +149,11 @@ msgstr "Phản đối"
 msgid "I acknowledge that some changes may affect my website and that this action cannot be undone."
 msgstr "Tôi xác nhận rằng một số thay đổi có thể ảnh hưởng đến trang web của tôi và hành động này không thể được hoàn tác."
 
-#: core/editor/editor.php:611
+#: core/editor/editor.php:612
 msgid "Elementor 2.5 introduces key changes to the layout using CSS Flexbox. Your existing pages might have been affected, please review your page before publishing."
 msgstr "Elementor 2.5 sử dụng CSS Flexbox trong bố cục. Trang đã tạo có thể bị ảnh hưởng, hãy xem lại các trang trước khi đăng."
 
-#: core/editor/editor.php:610
+#: core/editor/editor.php:611
 msgid "Note: Flexbox Changes"
 msgstr "Chú ý: Thay đổi flexbox"
 
@@ -194,7 +194,7 @@ msgstr "Định vị tùy chỉnh không được coi là thực tiễn tốt nh
 msgid "Custom Width"
 msgstr "Chiều rộng tùy chỉnh"
 
-#: core/editor/editor.php:784
+#: core/editor/editor.php:785
 msgid "Custom Positioning"
 msgstr "Định vị tùy chỉnh"
 
@@ -206,8 +206,8 @@ msgstr "Ẩn"
 msgid "Overflow"
 msgstr "Tràn ra"
 
-#: includes/widgets/common.php:144 includes/elements/column.php:790
-#: includes/elements/section.php:1219
+#: includes/elements/section.php:1219 includes/elements/column.php:790
+#: includes/widgets/common.php:144
 msgid "Motion Effects"
 msgstr "Hiệu ứng chuyển động"
 
@@ -215,18 +215,18 @@ msgstr "Hiệu ứng chuyển động"
 msgid "Horizontal Align"
 msgstr "Căn theo chiều ngang"
 
-#: includes/elements/column.php:172 includes/elements/column.php:200
-#: includes/elements/section.php:419
+#: includes/elements/section.php:419 includes/elements/column.php:172
+#: includes/elements/column.php:200
 msgid "Space Evenly"
 msgstr "Không gian đồng đều"
 
-#: includes/elements/column.php:171 includes/elements/column.php:199
-#: includes/elements/section.php:418
+#: includes/elements/section.php:418 includes/elements/column.php:171
+#: includes/elements/column.php:199
 msgid "Space Around"
 msgstr "Không gian xung quanh"
 
+#: includes/elements/section.php:409 includes/elements/column.php:162
 #: includes/widgets/common.php:437 includes/widgets/image-carousel.php:523
-#: includes/elements/column.php:162 includes/elements/section.php:409
 msgid "Vertical Align"
 msgstr "Căn theo chiều dọc"
 
@@ -297,13 +297,14 @@ msgstr "Tùy chỉnh"
 msgid "Get Popup Builder"
 msgstr "Tải Popup Builder"
 
-#: includes/template-library/sources/local.php:1640
 #: includes/settings/settings.php:161
+#: includes/template-library/sources/local.php:1640
 msgid "Popups"
 msgstr "Popup"
 
-#: includes/template-library/sources/local.php:1639 core/editor/editor.php:640
-#: core/app/app.php:38 core/app/app.php:39 assets/js/app-packages.js:9093
+#: core/editor/editor.php:641 core/app/app.php:38 core/app/app.php:39
+#: includes/template-library/sources/local.php:1639
+#: assets/js/app-packages.js:9093
 msgid "Theme Builder"
 msgstr "Theme Builder"
 
@@ -456,9 +457,9 @@ msgstr "Ngắt kết nối thành công."
 msgid "Connected Successfully."
 msgstr "Kết nối thành công."
 
+#: core/common/modules/connect/apps/connect.php:11
 #: core/common/modules/connect/admin.php:24
 #: core/common/modules/connect/admin.php:25
-#: core/common/modules/connect/apps/connect.php:11
 msgid "Connect"
 msgstr "Kết nối"
 
@@ -466,7 +467,7 @@ msgstr "Kết nối"
 msgid "Quit"
 msgstr "Thoát"
 
-#: includes/editor-templates/hotkeys.php:143 core/editor/editor.php:769
+#: core/editor/editor.php:770 includes/editor-templates/hotkeys.php:143
 msgid "Keyboard Shortcuts"
 msgstr "Phím tắt"
 
@@ -526,8 +527,8 @@ msgstr "Redo"
 msgid "Type to find anything in Elementor"
 msgstr "Nhập để tìm bất cứ điều gì trong Elementor"
 
-#: includes/editor-templates/hotkeys.php:92
 #: core/common/modules/finder/module.php:115
+#: includes/editor-templates/hotkeys.php:92
 msgid "Finder"
 msgstr "Trình tìm kiếm"
 
@@ -543,8 +544,8 @@ msgstr "Bảng điều khiển"
 msgid "Homepage"
 msgstr "Trang chủ"
 
-#: core/editor/editor.php:631
 #: core/common/modules/finder/categories/create.php:28
+#: core/editor/editor.php:632
 msgid "Create"
 msgstr "Tạo"
 
@@ -585,7 +586,7 @@ msgstr "Tạo trang đầu tiên của bạn"
 msgid "Getting Started"
 msgstr "Bắt đầu"
 
-#: core/editor/editor.php:649
+#: core/editor/editor.php:650
 msgid "Inner Section"
 msgstr "Inner Section"
 
@@ -615,10 +616,10 @@ msgstr "Điều hướng dễ dàng là đây!"
 msgid "Empty"
 msgstr "Trống rỗng"
 
-#: includes/editor-templates/navigator.php:12
+#: core/editor/editor.php:763 includes/editor-templates/hotkeys.php:126
 #: includes/editor-templates/panel.php:72
 #: includes/editor-templates/panel.php:74
-#: includes/editor-templates/hotkeys.php:126 core/editor/editor.php:762
+#: includes/editor-templates/navigator.php:12
 msgid "Navigator"
 msgstr "Hoa tiêu"
 
@@ -651,8 +652,8 @@ msgstr "Bạn đã tạo hơn 10 trang với Elementor. Làm tốt lăm! Nếu b
 msgid "Congrats!"
 msgstr "Chúc mừng!"
 
-#: includes/frontend.php:1162 includes/widgets/google-maps.php:128
-#: core/kits/documents/tabs/settings-lightbox.php:64
+#: core/kits/documents/tabs/settings-lightbox.php:64 includes/frontend.php:1162
+#: includes/widgets/google-maps.php:128
 msgid "Zoom"
 msgstr "Thu phóng"
 
@@ -696,19 +697,19 @@ msgstr "Nguồn"
 msgid "Dailymotion"
 msgstr "Dailymotion"
 
-#: includes/editor-templates/hotkeys.php:35 core/editor/editor.php:752
+#: core/editor/editor.php:753 includes/editor-templates/hotkeys.php:35
 msgid "Copy"
 msgstr "Sao chép"
 
-#: includes/widgets/video.php:255 includes/controls/groups/background.php:577
+#: includes/controls/groups/background.php:577 includes/widgets/video.php:255
 msgid "End Time"
 msgstr "Thời gian kết thúc"
 
-#: includes/widgets/video.php:243 includes/controls/groups/background.php:565
+#: includes/controls/groups/background.php:565 includes/widgets/video.php:243
 msgid "Start Time"
 msgstr "Thời gian bắt đầu"
 
-#: core/editor/editor.php:760
+#: core/editor/editor.php:761
 msgid "Copy All Content"
 msgstr "Sao chép tất cả nội dung"
 
@@ -733,32 +734,32 @@ msgstr "ID của Nút"
 msgid "Artwork"
 msgstr "Ảnh minh họa"
 
-#: includes/widgets/heading.php:258 includes/elements/column.php:385
-#: includes/elements/section.php:662
+#: includes/elements/section.php:662 includes/elements/column.php:385
+#: includes/widgets/heading.php:258
 msgid "Blend Mode"
 msgstr "Chế độ hòa trộn"
 
-#: core/editor/editor.php:601
+#: core/editor/editor.php:602
 msgid "Got It"
 msgstr "Đã hiểu"
 
-#: core/editor/editor.php:766
+#: core/editor/editor.php:767
 msgid "Now you can access all editing actions using right click."
 msgstr "Bây giờ bạn có thể truy cập tất cả các hành động chỉnh sửa bằng cách nhấp chuột phải."
 
-#: core/editor/editor.php:765
+#: core/editor/editor.php:766
 msgid "Meet Right Click"
 msgstr "Thử nhấp chuột phải"
 
-#: core/editor/editor.php:757
+#: core/editor/editor.php:758
 msgid "Save as a Global"
 msgstr "Lưu dưới dạng toàn cầu"
 
-#: core/editor/editor.php:756
+#: core/editor/editor.php:757
 msgid "Reset Style"
 msgstr "Đặt lại Style"
 
-#: core/editor/editor.php:754
+#: core/editor/editor.php:755
 msgid "Copy Style"
 msgstr "Sao chép Style"
 
@@ -791,11 +792,11 @@ msgctxt "Filter Control"
 msgid "Blur"
 msgstr "Độ mờ"
 
-#: includes/widgets/video.php:257 includes/controls/groups/background.php:579
+#: includes/controls/groups/background.php:579 includes/widgets/video.php:257
 msgid "Specify an end time (in seconds)"
 msgstr "Chỉ định thời gian kết thúc (tính bằng giây)"
 
-#: includes/widgets/video.php:245 includes/controls/groups/background.php:567
+#: includes/controls/groups/background.php:567 includes/widgets/video.php:245
 msgid "Specify a start time (in seconds)"
 msgstr "Chỉ định thời gian bắt đầu (tính bằng giây)"
 
@@ -816,10 +817,10 @@ msgstr "Quay trở lại trình chỉnh sửa trong WordPress"
 msgid "Elementor %s"
 msgstr "Elementor %s"
 
-#. translators: %s: Template type label.
 #. translators: %s the title of the post type
-#: includes/template-library/sources/local.php:1314
+#. translators: %s: Template type label.
 #: core/common/modules/finder/categories/create.php:62
+#: includes/template-library/sources/local.php:1314
 msgid "Add New %s"
 msgstr "Thêm mới %s"
 
@@ -829,12 +830,12 @@ msgid "%d row affected."
 msgid_plural "%d rows affected."
 msgstr[0] "Thêm mới %d"
 
-#: includes/widgets/image.php:393 includes/widgets/image.php:427
-#: includes/widgets/image-box.php:312 includes/widgets/image-box.php:366
-#: includes/elements/column.php:354 includes/elements/column.php:425
-#: includes/elements/section.php:616 includes/elements/section.php:717
 #: core/kits/documents/tabs/theme-style-images.php:83
 #: core/kits/documents/tabs/theme-style-images.php:154
+#: includes/elements/section.php:616 includes/elements/section.php:717
+#: includes/elements/column.php:354 includes/elements/column.php:425
+#: includes/widgets/image-box.php:312 includes/widgets/image-box.php:366
+#: includes/widgets/image.php:393 includes/widgets/image.php:427
 msgid "Opacity"
 msgstr "Độ trong suốt"
 
@@ -848,8 +849,8 @@ msgctxt "Page Template"
 msgid "Elementor Canvas"
 msgstr "Elementor Canvas"
 
-#: includes/plugin.php:458 includes/plugin.php:471 core/base/module.php:124
-#: core/base/module.php:137
+#: core/base/module.php:124 core/base/module.php:137 includes/plugin.php:458
+#: includes/plugin.php:471
 msgid "Something went wrong."
 msgstr "Dường như đang có lỗi đang xảy ra."
 
@@ -864,7 +865,7 @@ msgid "Position"
 msgstr "Vị trí"
 
 #. translators: %s: Element type.
-#: core/editor/editor.php:609
+#: core/editor/editor.php:610
 msgid "Delete %s"
 msgstr "Xóa %s"
 
@@ -943,8 +944,8 @@ msgid "Custom Fonts"
 msgstr "Fonts Tùy Chỉnh"
 
 #. translators: %s: Document title
-#: includes/editor-templates/panel.php:70 core/base/document.php:891
-#: core/settings/page/model.php:126
+#: core/settings/page/model.php:126 core/base/document.php:891
+#: includes/editor-templates/panel.php:70
 msgid "%s Settings"
 msgstr "%s Cài đặt"
 
@@ -969,7 +970,7 @@ msgstr "Nội tuyến"
 msgid "All"
 msgstr "Tất cả"
 
-#: core/editor/editor.php:676
+#: core/editor/editor.php:677
 msgid "Category"
 msgstr "Chuyên mục"
 
@@ -977,7 +978,7 @@ msgstr "Chuyên mục"
 msgid "More actions"
 msgstr "Nhiều hành động"
 
-#: core/editor/editor.php:698
+#: core/editor/editor.php:699
 msgid "Pages"
 msgstr "Trang"
 
@@ -997,8 +998,8 @@ msgstr "Thêm mẫu thiết kế templates mới và sử dụng lại chúng tr
 msgid "Want to give access only to content?"
 msgstr "Bạn chỉ muốn được cấp quyền truy cập vào nội dung?"
 
-#: core/role-manager/role-manager.php:31
 #: core/common/modules/finder/categories/general.php:56
+#: core/role-manager/role-manager.php:31
 msgid "Role Manager"
 msgstr "Quản  lý mục Role"
 
@@ -1047,7 +1048,7 @@ msgstr "Thêm Phông chữ Tùy Chỉnh Của Bạn"
 msgid "Search Templates:"
 msgstr "Tìm mẫu"
 
-#: core/editor/editor.php:697
+#: core/editor/editor.php:698
 msgid "Blocks"
 msgstr "Khối"
 
@@ -1076,19 +1077,19 @@ msgstr "Tạo bài viết mới"
 msgid "Google Early Access"
 msgstr "Google Early Access"
 
-#: core/editor/editor.php:746
+#: core/editor/editor.php:747
 msgid "Server Error"
 msgstr "Lỗi Máy chủ"
 
-#: core/editor/editor.php:747
+#: core/editor/editor.php:748
 msgid "Connection Lost"
 msgstr "Mất Kết nối"
 
-#: core/editor/editor.php:748
+#: core/editor/editor.php:749
 msgid "Unknown Error"
 msgstr "Không rõ lỗi"
 
-#: core/editor/editor.php:743
+#: core/editor/editor.php:744
 msgid "Saving has been disabled until you’re reconnected."
 msgstr "Lưu đã bị tắt đến khi bạn kết nối."
 
@@ -1096,19 +1097,19 @@ msgstr "Lưu đã bị tắt đến khi bạn kết nối."
 msgid "There is an autosave of this post that is more recent than the version below. You can restore the saved data fron the Revisions panel"
 msgstr "Có một bản lưu tự động gần đây của bài viết này. Bạn có thể khôi phục dữ liệu được lưu từ Revisions panel"
 
-#: core/editor/editor.php:741
+#: core/editor/editor.php:742
 msgid "View All Revisions"
 msgstr "Xem tất cả các bản sửa đổi"
 
-#: core/editor/editor.php:740
+#: core/editor/editor.php:741
 msgid "Have a look"
 msgstr "Nhìn xem"
 
-#: core/editor/editor.php:739
+#: core/editor/editor.php:740
 msgid "Keep Editing"
 msgstr "Tiếp tục chỉnh sửa"
 
-#: core/editor/editor.php:738
+#: core/editor/editor.php:739
 msgid "This is just a draft. Play around and when you're done - click update."
 msgstr "Đây chỉ là bản nháp. Khi thực hiện xong - nhấn cập nhật"
 
@@ -1117,15 +1118,15 @@ msgstr "Đây chỉ là bản nháp. Khi thực hiện xong - nhấn cập nhậ
 msgid "Hurray! Your %s is live."
 msgstr "Hurray! %s của bạn đã hoạt động."
 
-#: core/editor/editor.php:737
+#: core/editor/editor.php:738
 msgid "Submit"
 msgstr "Gửi"
 
-#: core/editor/editor.php:679
+#: core/editor/editor.php:680
 msgid "Import Document Settings"
 msgstr "Nhập các thiết lập tài liệu"
 
-#: core/editor/editor.php:668
+#: core/editor/editor.php:669
 msgid "Show Panel"
 msgstr "Hiển thị panel"
 
@@ -1187,7 +1188,7 @@ msgstr "Đây là một cảnh báo"
 msgid "Back to default"
 msgstr "Trở về mặc định"
 
-#: includes/widgets/toggle.php:178 includes/widgets/accordion.php:177
+#: includes/widgets/accordion.php:177 includes/widgets/toggle.php:178
 msgid "Active Icon"
 msgstr "Kích hoạt Icon"
 
@@ -1241,39 +1242,39 @@ msgstr "Chế độ Riêng tư"
 msgid "Add Your Heading Text Here"
 msgstr "Thêm Heading của bạn tại đây"
 
-#: core/editor/editor.php:742 core/common/modules/connect/apps/base-app.php:576
+#: core/common/modules/connect/apps/base-app.php:576 core/editor/editor.php:743
 msgid "Dismiss"
 msgstr "Bỏ qua"
 
-#: core/editor/editor.php:735
+#: core/editor/editor.php:736
 msgid "Update"
 msgstr "Cập nhật"
 
-#: core/kits/documents/kit.php:116 core/editor/editor.php:731
+#: core/editor/editor.php:732 core/kits/documents/kit.php:116
 msgid "Published"
 msgstr "Đã xuất bản"
 
-#: core/editor/editor.php:704
+#: core/editor/editor.php:705
 msgid "Proceed Anyway"
 msgstr "Vẫn Tiếp tục"
 
-#: core/editor/editor.php:703
+#: core/editor/editor.php:704
 msgid "Your browser isn't compatible with all of Elementor's editing features. We recommend you switch to another browser like Chrome or Firefox."
 msgstr "Trình duyệt của bạn không tương thích với tất cả tính năng chỉnh sửa của Elementor. Chúng tôi đề nghị bạn chuyển qua trình duyệt khác như Chrome hoặc Firefox."
 
-#: core/editor/editor.php:702
+#: core/editor/editor.php:703
 msgid "Your browser isn't compatible"
 msgstr "Trình duyệt của bạn không tương thích"
 
-#: core/editor/editor.php:694 core/common/modules/finder/template.php:19
+#: core/common/modules/finder/template.php:19 core/editor/editor.php:695
 msgid "No Results Found"
 msgstr "Không tìm thấy kết quả nào"
 
-#: core/editor/editor.php:693
+#: core/editor/editor.php:694
 msgid "Please make sure your search is spelled correctly or try a different words."
 msgstr "Hãy đảm bảo bạn gõ đúng chính tả hoặc thử từ khác"
 
-#: core/editor/editor.php:691
+#: core/editor/editor.php:692
 msgid "You can mark any pre-designed template as a favorite."
 msgstr "Bạn có thể đánh dấu bất kỳ mẫu được thiết kế trước nào là yêu thích."
 
@@ -1293,10 +1294,10 @@ msgstr "Kéo & thả tệp mẫu .JSON hoặc .zip của bạn"
 msgid "Import Template to Your Library"
 msgstr "Nhập Mẫu từ Thư viện của bạn"
 
-#: includes/widgets/button.php:141 includes/widgets/button.php:142
 #: includes/editor-templates/templates.php:227
 #: includes/editor-templates/templates.php:243
-#: includes/editor-templates/templates.php:256
+#: includes/editor-templates/templates.php:256 includes/widgets/button.php:141
+#: includes/widgets/button.php:142
 msgid "Click here"
 msgstr "Bấm vào đây"
 
@@ -1339,14 +1340,14 @@ msgstr "Mới"
 msgid "Import Template"
 msgstr "Nhập Mẫu"
 
-#: includes/controls/icons.php:82 includes/controls/media.php:140
-#: includes/controls/media.php:171 includes/editor-templates/repeater.php:27
-#: core/kits/views/panel.php:32
+#: core/kits/views/panel.php:32 includes/controls/media.php:146
+#: includes/controls/media.php:180 includes/controls/icons.php:82
+#: includes/editor-templates/repeater.php:27
 msgid "Remove"
 msgstr "Gỡ bỏ"
 
-#: includes/editor-templates/repeater.php:21
-#: includes/editor-templates/hotkeys.php:67 core/editor/editor.php:751
+#: core/editor/editor.php:752 includes/editor-templates/repeater.php:21
+#: includes/editor-templates/hotkeys.php:67
 msgid "Duplicate"
 msgstr "Nhân đôi"
 
@@ -1354,12 +1355,12 @@ msgstr "Nhân đôi"
 msgid "Drag & Drop"
 msgstr "Kéo & Thả"
 
-#: includes/editor-templates/panel.php:152
-#: includes/editor-templates/panel.php:153 core/editor/editor.php:669
+#: core/editor/editor.php:670 includes/editor-templates/panel.php:152
+#: includes/editor-templates/panel.php:153
 msgid "Hide Panel"
 msgstr "Ẩn Bảng điều khiển"
 
-#: includes/editor-templates/panel.php:142 core/editor/editor.php:758
+#: core/editor/editor.php:759 includes/editor-templates/panel.php:142
 msgid "Save as Template"
 msgstr "Lưu dưới dạng Mẫu"
 
@@ -1368,7 +1369,7 @@ msgstr "Lưu dưới dạng Mẫu"
 msgid "Save Options"
 msgstr "Nhớ Tùy chọn"
 
-#: includes/editor-templates/panel.php:118 core/editor/editor.php:732
+#: core/editor/editor.php:733 includes/editor-templates/panel.php:118
 msgid "Publish"
 msgstr "Xuất bản"
 
@@ -1377,7 +1378,7 @@ msgstr "Xuất bản"
 msgid "Preview Changes"
 msgstr "Xem trước Thay đổi"
 
-#: core/editor/editor.php:646
+#: core/editor/editor.php:647
 msgid "Exit To Dashboard"
 msgstr "Thoát về Bảng tin"
 
@@ -1423,14 +1424,14 @@ msgctxt "Dashboard Overview Widget Recently Date"
 msgid "M jS"
 msgstr "M jS"
 
-#: core/editor/editor.php:692
+#: core/editor/editor.php:693
 msgid "No Favorite Templates"
 msgstr "Không có Mẫu thiết kế Templates yêu thích"
 
+#: modules/history/revisions-manager.php:247
 #: includes/template-library/sources/local.php:450
 #: includes/template-library/sources/local.php:529
 #: includes/template-library/sources/local.php:669
-#: modules/history/revisions-manager.php:247
 msgid "Access denied."
 msgstr "Truy cập bị từ chối."
 
@@ -1438,31 +1439,31 @@ msgstr "Truy cập bị từ chối."
 msgid "Disable Default Fonts"
 msgstr "Tắt Font mặc định"
 
-#: includes/widgets/common.php:449 includes/widgets/toggle.php:386
-#: includes/widgets/accordion.php:361 includes/widgets/image-carousel.php:535
-#: includes/elements/column.php:197
+#: includes/elements/column.php:197 includes/widgets/common.php:449
+#: includes/widgets/image-carousel.php:535 includes/widgets/accordion.php:361
+#: includes/widgets/toggle.php:386
 msgid "End"
 msgstr "Kết thúc"
 
-#: includes/widgets/common.php:441 includes/widgets/toggle.php:382
-#: includes/widgets/accordion.php:357 includes/widgets/image-carousel.php:527
-#: includes/elements/column.php:195
+#: includes/elements/column.php:195 includes/widgets/common.php:441
+#: includes/widgets/image-carousel.php:527 includes/widgets/accordion.php:357
+#: includes/widgets/toggle.php:382
 msgid "Start"
 msgstr "Bắt đầu"
 
-#: core/editor/editor.php:672
+#: core/editor/editor.php:673
 msgid "Type Here"
 msgstr "Gõ vào đây"
 
-#: core/editor/editor.php:795
+#: core/editor/editor.php:796
 msgid "Reload Page"
 msgstr "Tải lại trang"
 
-#: core/editor/editor.php:797
+#: core/editor/editor.php:798
 msgid "Your session has expired. Please reload the page to continue editing."
 msgstr "Phiên của bạn đã hết hạn. Hãy tải lại trang để tiếp tục sửa."
 
-#: core/editor/editor.php:796
+#: core/editor/editor.php:797
 msgid "Timeout"
 msgstr "Hết hạn"
 
@@ -1479,7 +1480,7 @@ msgstr "Không thể tải bản xem trước"
 msgid "Update Notification"
 msgstr "Cập nhật thông báo"
 
-#: core/editor/editor.php:799
+#: core/editor/editor.php:800
 msgid "Unknown Value"
 msgstr "Giá trị không xác định"
 
@@ -1495,24 +1496,24 @@ msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm
 msgid "Switch to Revisions tab for older versions"
 msgstr "Chuyển tới Bản sửa đổi cho các phiên bản cũ hơn"
 
-#: modules/history/views/revisions-panel-template.php:26
 #: modules/history/views/history-panel-template.php:10
+#: modules/history/views/revisions-panel-template.php:26
 msgid "Revisions"
 msgstr "Bản sửa đổi"
 
-#: includes/widgets/video.php:714
 #: core/kits/documents/tabs/settings-lightbox.php:140
+#: includes/widgets/video.php:714
 msgid "UI Hover Color"
 msgstr "Màu sắc UI khi di chuột"
 
-#: includes/widgets/video.php:703
 #: core/kits/documents/tabs/settings-lightbox.php:129
+#: includes/widgets/video.php:703
 msgid "UI Color"
 msgstr "Màu sắc UI"
 
+#: modules/history/views/history-panel-template.php:9
 #: includes/editor-templates/templates.php:124
 #: includes/editor-templates/hotkeys.php:14
-#: modules/history/views/history-panel-template.php:9
 msgid "Actions"
 msgstr "Hành động"
 
@@ -1532,13 +1533,13 @@ msgstr "Đã di chuyển"
 msgid "Added"
 msgstr "Đã thêm"
 
-#: core/editor/editor.php:794
+#: core/editor/editor.php:795
 msgid "Documentation"
 msgstr "Tài liệu hướng dẫn"
 
+#: modules/history/module.php:52 includes/editor-templates/hotkeys.php:117
 #: includes/editor-templates/panel.php:76
 #: includes/editor-templates/panel.php:78
-#: includes/editor-templates/hotkeys.php:117 modules/history/module.php:52
 msgid "History"
 msgstr "Lịch sử"
 
@@ -1581,25 +1582,25 @@ msgstr "Image Lightbox"
 msgid "Switch Editor Loader Method"
 msgstr "Chuyển đổi phương thức nạp trình soạn thảo"
 
-#: includes/widgets/common.php:179 includes/elements/column.php:825
-#: includes/elements/section.php:1254
+#: includes/elements/section.php:1254 includes/elements/column.php:825
+#: includes/widgets/common.php:179
 msgid "Animation Delay"
 msgstr "Độ trễ hiệu ứng hoạt hình"
 
-#: includes/widgets/common.php:239 includes/widgets/common.php:346
-#: includes/widgets/google-maps.php:214 includes/widgets/image.php:453
-#: includes/widgets/image-box.php:330
-#: includes/controls/groups/background.php:672 includes/elements/column.php:300
-#: includes/elements/column.php:456 includes/elements/column.php:563
-#: includes/elements/section.php:565 includes/elements/section.php:748
-#: includes/elements/section.php:854
-#: core/kits/documents/tabs/theme-style-form-fields.php:127
 #: core/kits/documents/tabs/theme-style-images.php:191
+#: core/kits/documents/tabs/theme-style-form-fields.php:127
+#: includes/controls/groups/background.php:672
+#: includes/elements/section.php:565 includes/elements/section.php:748
+#: includes/elements/section.php:854 includes/elements/column.php:300
+#: includes/elements/column.php:456 includes/elements/column.php:563
+#: includes/widgets/google-maps.php:214 includes/widgets/common.php:239
+#: includes/widgets/common.php:346 includes/widgets/image-box.php:330
+#: includes/widgets/image.php:453
 msgid "Transition Duration"
 msgstr "Thời gian chuyển đổi"
 
-#: includes/elements/column.php:213
 #: core/kits/documents/tabs/settings-layout.php:66
+#: includes/elements/column.php:213
 msgid "Widgets Space"
 msgstr "Khoảng trống các Widget"
 
@@ -1608,27 +1609,27 @@ msgctxt "Box Shadow Control"
 msgid "Outline"
 msgstr "Viền ngoài"
 
-#: core/editor/editor.php:681
+#: core/editor/editor.php:682
 msgid "Attention: Importing may override previous settings."
 msgstr "Lưu ý: Việc nhập có thể ghi đè cài đặt trước đó."
 
-#: includes/settings/tools.php:265
 #: core/common/modules/finder/categories/tools.php:58
+#: includes/settings/tools.php:265
 msgid "Version Control"
 msgstr "Kiểm soát Phiên bản"
 
 #. translators: %s: Element type.
-#: core/editor/editor.php:603
+#: core/editor/editor.php:604
 msgid "Add %s"
 msgstr "Thêm %s"
 
 #. translators: %s: Element name.
-#: core/editor/editor.php:605
+#: core/editor/editor.php:606
 msgid "Edit %s"
 msgstr "Sửa %s"
 
 #. translators: %s: Element type.
-#: core/editor/editor.php:607
+#: core/editor/editor.php:608
 msgid "Duplicate %s"
 msgstr "Nhân đôi %s"
 
@@ -1660,17 +1661,17 @@ msgstr "Tích hợp"
 msgid "Sets the default space between widgets (Default: 20)"
 msgstr "Đặt khoảng trống mặc định giữa các widget (Mặc định: 20)"
 
-#: includes/rollback.php:165 includes/settings/tools.php:120
-#: includes/settings/tools.php:268 core/admin/admin.php:712
+#: core/admin/admin.php:712 includes/settings/tools.php:120
+#: includes/settings/tools.php:268 includes/rollback.php:165
 msgid "Rollback to Previous Version"
 msgstr "Khôi phục về phiên bản trước"
 
-#: includes/widgets/common.php:100 includes/elements/column.php:726
-#: includes/elements/section.php:1175
+#: includes/elements/section.php:1175 includes/elements/column.php:726
+#: includes/widgets/common.php:100
 msgid "Z-Index"
 msgstr "Z-Index"
 
-#: core/editor/editor.php:680
+#: core/editor/editor.php:681
 msgid "Do you want to also import the document settings of the template?"
 msgstr "Bạn có muốn nhập các cài đặt tài liệu của mẫu không?"
 
@@ -1729,10 +1730,10 @@ msgstr "Nhúng nội bộ"
 msgid "For troubleshooting server configuration conflicts."
 msgstr "Để khắc phục sự cố xung đột cấu hình máy chủ."
 
+#: core/debug/inspector.php:55 core/editor/editor.php:737
+#: modules/safe-mode/module.php:47 includes/settings/tools.php:312
 #: includes/settings/settings.php:505 includes/settings/settings.php:517
-#: includes/settings/settings.php:528 includes/settings/tools.php:312
-#: modules/safe-mode/module.php:47 core/debug/inspector.php:55
-#: core/editor/editor.php:736
+#: includes/settings/settings.php:528
 msgid "Enable"
 msgstr "Bật"
 
@@ -1740,13 +1741,13 @@ msgstr "Bật"
 msgid "Status"
 msgstr "Trạng thái"
 
-#: includes/settings/settings.php:504 includes/settings/settings.php:516
-#: includes/settings/settings.php:529 includes/settings/tools.php:311
-#: modules/safe-mode/module.php:46 core/debug/inspector.php:54
+#: core/debug/inspector.php:54 modules/safe-mode/module.php:46
+#: includes/settings/tools.php:311 includes/settings/settings.php:504
+#: includes/settings/settings.php:516 includes/settings/settings.php:529
 msgid "Disable"
 msgstr "Tắt"
 
-#: includes/widgets/spacer.php:108 includes/widgets/text-editor.php:322
+#: includes/widgets/text-editor.php:322 includes/widgets/spacer.php:108
 msgid "Space"
 msgstr "Không gian"
 
@@ -1754,13 +1755,13 @@ msgstr "Không gian"
 msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
 msgstr "Elementor cho phép bạn ẩn tiêu đề trang. Điều này làm việc cho các giao diện có bộ chọn \"h1.entry-title\". Nếu bộ chọn giao diện của bạn khác, vui lòng nhập nó ở trên."
 
-#: includes/admin-templates/new-template.php:61
 #: includes/settings/controls.php:156
+#: includes/admin-templates/new-template.php:61
 msgid "Select"
 msgstr "Chọn"
 
-#: modules/history/module.php:53
 #: core/common/modules/finder/categories/edit.php:116
+#: modules/history/module.php:53
 msgid "Template"
 msgstr "Mẫu"
 
@@ -1812,8 +1813,8 @@ msgstr "Sắp có"
 msgid "Choose Mode"
 msgstr "Chọn chế độ"
 
-#: includes/maintenance-mode.php:190 includes/maintenance-mode.php:194
 #: core/common/modules/finder/categories/tools.php:64
+#: includes/maintenance-mode.php:190 includes/maintenance-mode.php:194
 msgid "Maintenance Mode"
 msgstr "Chế độ bảo trì"
 
@@ -1837,12 +1838,12 @@ msgstr "Chế Độ Bảo Trì (Maintenance Mode) trả về mã HTTP 503, nhờ
 msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
 msgstr "Thiết lập trang web của bạn ở chế độ MAINTENANCE MODE (có nghĩa là trang web của bạn sẽ tạm thời ngưng hoạt động để bảo trì), hoặc ở chế độ COMING SOON (có nghĩa là trang web của bạn sẽ ngưng hoạt động cho đến ngày công bố)."
 
-#: includes/maintenance-mode.php:203 modules/history/module.php:64
-#: core/kits/documents/kit.php:115
+#: core/kits/documents/kit.php:115 modules/history/module.php:64
+#: includes/maintenance-mode.php:203
 msgid "Disabled"
 msgstr "Đã tắt"
 
-#: includes/editor-templates/hotkeys.php:51 core/editor/editor.php:755
+#: core/editor/editor.php:756 includes/editor-templates/hotkeys.php:51
 msgid "Paste Style"
 msgstr "Dán kiểu"
 
@@ -1867,9 +1868,9 @@ msgstr "Đảo ngược"
 msgid "Flip"
 msgstr "Lật"
 
-#: includes/widgets/toggle.php:267 includes/widgets/icon-list.php:217
-#: includes/elements/column.php:170 includes/elements/column.php:198
-#: includes/elements/section.php:417
+#: includes/elements/section.php:417 includes/elements/column.php:170
+#: includes/elements/column.php:198 includes/widgets/icon-list.php:217
+#: includes/widgets/toggle.php:267
 msgid "Space Between"
 msgstr "Khoảng cách giữa hai đối tượng"
 
@@ -1962,24 +1963,24 @@ msgctxt "Shapes"
 msgid "Waves"
 msgstr "Sóng"
 
-#: includes/widgets/image-gallery.php:142 includes/widgets/video.php:558
-#: includes/widgets/video.php:679 includes/widgets/image.php:219
-#: includes/widgets/image-carousel.php:203
 #: core/kits/documents/tabs/settings-lightbox.php:18 core/kits/manager.php:108
+#: includes/widgets/image-gallery.php:142
+#: includes/widgets/image-carousel.php:203 includes/widgets/video.php:558
+#: includes/widgets/video.php:679 includes/widgets/image.php:219
 msgid "Lightbox"
 msgstr "Hộp đèn"
 
-#: includes/widgets/common.php:224 includes/widgets/common.php:311
-#: includes/widgets/button.php:336 includes/widgets/google-maps.php:199
-#: includes/widgets/icon-list.php:412 includes/widgets/icon-list.php:496
-#: includes/widgets/image.php:420 includes/widgets/icon.php:248
-#: includes/widgets/icon-box.php:302 includes/widgets/image-box.php:351
-#: includes/elements/column.php:285 includes/elements/column.php:410
-#: includes/elements/column.php:528 includes/elements/section.php:550
-#: includes/elements/section.php:702 includes/elements/section.php:819
-#: core/kits/documents/tabs/theme-style-typography.php:144
 #: core/kits/documents/tabs/theme-style-images.php:122
+#: core/kits/documents/tabs/theme-style-typography.php:144
 #: core/kits/documents/tabs/theme-style-buttons.php:145
+#: includes/elements/section.php:550 includes/elements/section.php:702
+#: includes/elements/section.php:819 includes/elements/column.php:285
+#: includes/elements/column.php:410 includes/elements/column.php:528
+#: includes/widgets/button.php:336 includes/widgets/google-maps.php:199
+#: includes/widgets/icon-box.php:302 includes/widgets/icon.php:248
+#: includes/widgets/common.php:224 includes/widgets/common.php:311
+#: includes/widgets/image-box.php:351 includes/widgets/icon-list.php:412
+#: includes/widgets/icon-list.php:496 includes/widgets/image.php:420
 msgid "Hover"
 msgstr "Di chuột"
 
@@ -1987,13 +1988,13 @@ msgstr "Di chuột"
 msgid "Navigation Width"
 msgstr "Chiều rộng thanh điều hướng"
 
-#: includes/widgets/common.php:113 includes/elements/column.php:738
-#: includes/elements/section.php:1187
+#: includes/elements/section.php:1187 includes/elements/column.php:738
+#: includes/widgets/common.php:113
 msgid "CSS ID"
 msgstr "ID CSS"
 
-#: includes/widgets/common.php:119 includes/widgets/button.php:260
-#: includes/elements/column.php:744 includes/elements/section.php:1193
+#: includes/elements/section.php:1193 includes/elements/column.php:744
+#: includes/widgets/button.php:260 includes/widgets/common.php:119
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Thêm id tùy chỉnh của bạn KHÔNG CÓ phím Pound. ví dụ: id của tôi"
 
@@ -2070,9 +2071,9 @@ msgstr "Cập nhật địa chỉ trang web (URL)"
 msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
 msgstr "<strong>Quan trọng:</strong> Chúng tôi khuyên bạn nên <a target=\"_blank\" href=\"%s\">sao lưu cơ sở dữ liệu</a> trước khi sử dụng Replace URL"
 
+#: core/common/modules/finder/categories/tools.php:52
 #: includes/settings/tools.php:237 includes/settings/tools.php:248
 #: includes/settings/tools.php:256
-#: core/common/modules/finder/categories/tools.php:52
 msgid "Replace URL"
 msgstr "Replace URL"
 
@@ -2082,7 +2083,7 @@ msgctxt "System Info"
 msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
 msgstr "Chúng tôi khuyên bạn nên đặt bộ nhớ ít nhất là %1$s. Để biết thêm thông tin, hãy đọc về <a href=\"%2$s\">cách tăng bộ nhớ được cấp cho PHP</a>."
 
-#: core/editor/editor.php:793
+#: core/editor/editor.php:794
 msgid "Autosave"
 msgstr "Tự động nhớ"
 
@@ -2157,9 +2158,8 @@ msgstr "Tùy chỉnh CSS cho phép bạn thêm mã CSS vào bất kỳ widget n�
 msgid "Meet Our Custom CSS"
 msgstr "Làm quen với trình Tùy chỉnh CSS của chúng tôi"
 
-#: includes/managers/controls.php:890
 #: core/kits/documents/tabs/settings-custom-css.php:17
-#: core/kits/manager.php:125
+#: core/kits/manager.php:125 includes/managers/controls.php:890
 msgid "Custom CSS"
 msgstr "Tùy chỉnh CSS"
 
@@ -2175,26 +2175,25 @@ msgstr "Làm quen với Widget toàn cục của chúng tôi"
 msgid "Global"
 msgstr "Toàn cục"
 
-#: includes/widgets/video.php:561 includes/widgets/text-editor.php:122
+#: includes/widgets/text-editor.php:122 includes/widgets/video.php:561
 #: includes/widgets/icon-list.php:263
 msgid "Off"
 msgstr "Tắt"
 
-#: includes/widgets/video.php:562 includes/widgets/text-editor.php:123
+#: includes/widgets/text-editor.php:123 includes/widgets/video.php:562
 #: includes/widgets/icon-list.php:264
 msgid "On"
 msgstr "Bật"
 
+#: core/role-manager/role-manager.php:168 core/editor/notice-bar.php:24
+#: core/editor/editor.php:784 core/admin/admin.php:275 core/admin/admin.php:487
 #: includes/settings/settings.php:155 includes/settings/settings.php:292
 #: includes/settings/settings.php:313 includes/settings/settings.php:334
-#: includes/managers/controls.php:930
 #: includes/editor-templates/templates.php:204
 #: includes/editor-templates/panel-elements.php:23
-#: includes/editor-templates/panel-elements.php:57 core/editor/editor.php:783
-#: core/editor/notice-bar.php:24 core/admin/admin.php:275
-#: core/admin/admin.php:487 core/role-manager/role-manager.php:168
-#: assets/js/app-packages.js:9955 assets/js/app-packages.js:10253
-#: assets/js/app-packages.js:10288
+#: includes/editor-templates/panel-elements.php:57
+#: includes/managers/controls.php:930 assets/js/app-packages.js:9955
+#: assets/js/app-packages.js:10253 assets/js/app-packages.js:10288
 msgid "Go Pro"
 msgstr "Nâng cấp bản Pro"
 
@@ -2230,11 +2229,11 @@ msgstr "Tạo lại CSS"
 msgid "Improve Elementor"
 msgstr "Cải thiện Elementor"
 
-#: core/editor/editor.php:657
+#: core/editor/editor.php:658
 msgid "Attention: We are going to DELETE ALL CONTENT from this page. Are you sure you want to do that?"
 msgstr "Lưu ý: Chúng tôi sẽ XÓA TẤT CẢ NỘI DUNG từ trang này. Bạn có chắc chắn muốn làm điều đó?"
 
-#: core/editor/editor.php:656 core/editor/editor.php:761
+#: core/editor/editor.php:657 core/editor/editor.php:762
 msgid "Delete All Content"
 msgstr "Xóa tất cả nội dung"
 
@@ -2242,15 +2241,15 @@ msgstr "Xóa tất cả nội dung"
 msgid "Update changes to page"
 msgstr "Cập nhật thay đổi cho trang"
 
-#: core/editor/editor.php:612
+#: core/editor/editor.php:613
 msgid "Color Picker"
 msgstr "Bộ chọn màu"
 
-#: core/editor/editor.php:653
+#: core/editor/editor.php:654
 msgid "Descending order"
 msgstr "Thứ tự giảm dần"
 
-#: core/editor/editor.php:652
+#: core/editor/editor.php:653
 msgid "Ascending order"
 msgstr "Thứ tự tăng dần"
 
@@ -2282,8 +2281,8 @@ msgstr "Kéo dài phần Fit To"
 msgid "Stretch Section"
 msgstr "Stretch Section"
 
-#: includes/settings/settings.php:454 includes/elements/section.php:459
-#: core/admin/admin-notices.php:221
+#: core/admin/admin-notices.php:221 includes/settings/settings.php:454
+#: includes/elements/section.php:459
 msgid "Learn more."
 msgstr "Tìm hiểu thêm."
 
@@ -2291,8 +2290,8 @@ msgstr "Tìm hiểu thêm."
 msgid "Reverse Columns"
 msgstr "Đảo ngược cột"
 
-#: includes/editor-templates/panel.php:100 includes/elements/section.php:1292
 #: core/kits/documents/tabs/settings-layout.php:142
+#: includes/editor-templates/panel.php:100 includes/elements/section.php:1292
 msgid "Mobile"
 msgstr "Thiết bị di động"
 
@@ -2393,44 +2392,44 @@ msgstr "Thư viện Elementor tự động cập nhật hàng ngày. Bạn cũng
 msgid "Sync Library"
 msgstr "Đồng bộ hóa Thư viện"
 
-#: includes/settings/tools.php:36 includes/settings/tools.php:37
-#: includes/settings/tools.php:335
 #: core/common/modules/finder/categories/tools.php:28
 #: core/common/modules/finder/categories/tools.php:46
+#: includes/settings/tools.php:36 includes/settings/tools.php:37
+#: includes/settings/tools.php:335
 msgid "Tools"
 msgstr "Công cụ"
 
-#: core/editor/editor.php:678
+#: core/editor/editor.php:679
 msgid "Are you sure you want to delete this template?"
 msgstr "Bạn có chắc chắn muốn xóa mẫu này?"
 
-#: core/editor/editor.php:677
+#: core/editor/editor.php:678
 msgid "Delete Template"
 msgstr "Xóa Mẫu"
 
-#: modules/library/documents/page.php:66 core/editor/editor.php:684
-#: core/document-types/page.php:30
+#: core/editor/editor.php:685 core/document-types/page.php:30
+#: modules/library/documents/page.php:66
 msgid "Page"
 msgstr "Trang"
 
-#: core/editor/editor.php:695
+#: core/editor/editor.php:696
 msgid "The following error(s) occurred while processing the request:"
 msgstr "Các lỗi sau xảy ra trong khi xử lý yêu cầu:"
 
 #. translators: %s: Template type.
-#: core/editor/editor.php:686
+#: core/editor/editor.php:687
 msgid "Save Your %s to Library"
 msgstr "Lưu %s của bạn vào Thư viện"
 
-#: includes/utils.php:123 core/editor/editor.php:675
+#: core/editor/editor.php:676 includes/utils.php:123
 msgid "An error occurred"
 msgstr "Đã xảy ra lỗi"
 
-#: core/editor/editor.php:689
+#: core/editor/editor.php:690
 msgid "This is where your templates should be. Design it. Save it. Reuse it."
 msgstr "Đây là nơi đặt các mẫu của bạn. Thiết kế nó. Lưu nó. Tái sử dụng nó."
 
-#: core/editor/editor.php:690
+#: core/editor/editor.php:691
 msgid "Haven’t Saved Templates Yet?"
 msgstr "Chưa lưu mẫu?"
 
@@ -2438,7 +2437,7 @@ msgstr "Chưa lưu mẫu?"
 msgid "Enter Template Name"
 msgstr "Nhập tên Mẫu"
 
-#: core/editor/editor.php:687
+#: core/editor/editor.php:688
 msgid "Your designs will be available for export and reuse on any page or website"
 msgstr "Thiết kế của bạn sẽ có sẵn để xuất và tái sử dụng trên bất kỳ trang hoặc trang web nào"
 
@@ -2460,19 +2459,19 @@ msgstr "Quay về Thư viện"
 msgid "Insert"
 msgstr "Chèn"
 
-#: core/editor/editor.php:699
+#: core/editor/editor.php:700
 msgid "My Templates"
 msgstr "Mẫu của tôi"
 
-#: core/editor/editor.php:682 core/common/modules/connect/apps/library.php:12
+#: core/common/modules/connect/apps/library.php:12 core/editor/editor.php:683
 msgid "Library"
 msgstr "Thư viện"
 
-#: includes/frontend.php:1167 includes/editor-templates/global.php:18
+#: core/kits/manager.php:105 includes/editor-templates/global.php:18
 #: includes/editor-templates/library-layout.php:15
-#: includes/editor-templates/library-layout.php:16 core/kits/manager.php:105
-#: assets/js/app-packages.js:7579 assets/js/app-packages.js:7903
-#: assets/js/app-packages.js:8942 assets/js/app.js:6843 assets/js/app.js:7167
+#: includes/editor-templates/library-layout.php:16 includes/frontend.php:1167
+#: assets/js/app.js:6843 assets/js/app.js:7167 assets/js/app-packages.js:7579
+#: assets/js/app-packages.js:7903 assets/js/app-packages.js:8942
 msgid "Close"
 msgstr "Đóng"
 
@@ -2503,22 +2502,22 @@ msgctxt "System Info"
 msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
 msgstr "Nếu bạn muốn sửa đổi mã nguồn của giao diện của mình, chúng tôi khuyên bạn nên sử dụng <a href=\"%s\">giao diện con</a>."
 
-#: includes/settings/settings.php:471 includes/settings/settings.php:532
-#: includes/controls/url.php:76
-#: modules/safe-mode/mu-plugin/elementor-safe-mode.php:103
-#: modules/safe-mode/module.php:361 modules/safe-mode/module.php:370
-#: core/editor/editor.php:665 core/editor/editor.php:707
+#: core/editor/editor.php:666 core/editor/editor.php:708
 #: core/admin/admin-notices.php:309 core/admin/admin-notices.php:353
 #: core/admin/admin-notices.php:397 core/admin/admin-notices.php:441
-#: core/admin/admin-notices.php:486 assets/js/app-packages.js:7838
-#: assets/js/app-packages.js:9160 assets/js/app-packages.js:9298
-#: assets/js/app.js:7102
+#: core/admin/admin-notices.php:486 modules/safe-mode/module.php:361
+#: modules/safe-mode/module.php:370
+#: modules/safe-mode/mu-plugin/elementor-safe-mode.php:103
+#: includes/settings/settings.php:471 includes/settings/settings.php:532
+#: includes/controls/url.php:76 assets/js/app.js:7102
+#: assets/js/app-packages.js:7838 assets/js/app-packages.js:9160
+#: assets/js/app-packages.js:9298
 msgid "Learn More"
 msgstr "Tìm hiểu thêm"
 
-#: includes/widgets/button.php:380 includes/widgets/image.php:470
-#: includes/widgets/social-icons.php:542 includes/widgets/icon.php:286
-#: includes/widgets/icon-box.php:338 includes/widgets/image-box.php:288
+#: includes/widgets/button.php:380 includes/widgets/icon-box.php:338
+#: includes/widgets/icon.php:286 includes/widgets/image-box.php:288
+#: includes/widgets/social-icons.php:538 includes/widgets/image.php:470
 msgid "Hover Animation"
 msgstr "Animation khi di chuột"
 
@@ -2527,13 +2526,13 @@ msgctxt "Background Control"
 msgid "Contain"
 msgstr "Chứa"
 
-#: includes/widgets/common.php:167 includes/elements/column.php:813
-#: includes/elements/section.php:1242
+#: includes/elements/section.php:1242 includes/elements/column.php:813
+#: includes/widgets/common.php:167
 msgid "Fast"
 msgstr "Nhanh"
 
-#: includes/widgets/common.php:165 includes/elements/column.php:811
-#: includes/elements/section.php:1240
+#: includes/elements/section.php:1240 includes/elements/column.php:811
+#: includes/widgets/common.php:165
 msgid "Slow"
 msgstr "Chậm"
 
@@ -2564,18 +2563,18 @@ msgctxt "Box Shadow Control"
 msgid "Box Shadow"
 msgstr "Box Shadow"
 
-#: includes/widgets/tabs.php:157 includes/controls/box-shadow.php:73
-#: includes/controls/text-shadow.php:76
+#: includes/controls/box-shadow.php:73 includes/controls/text-shadow.php:76
+#: includes/widgets/tabs.php:157
 msgid "Vertical"
 msgstr "Theo chiều dọc"
 
-#: includes/widgets/tabs.php:156 includes/controls/box-shadow.php:68
-#: includes/controls/text-shadow.php:71
+#: includes/controls/box-shadow.php:68 includes/controls/text-shadow.php:71
+#: includes/widgets/tabs.php:156
 msgid "Horizontal"
 msgstr "Theo chiều ngang"
 
+#: includes/elements/section.php:1227 includes/elements/column.php:798
 #: includes/widgets/common.php:152 includes/widgets/video.php:764
-#: includes/elements/column.php:798 includes/elements/section.php:1227
 msgid "Entrance Animation"
 msgstr "Entrance Animation"
 
@@ -2599,7 +2598,7 @@ msgstr "Tắt màu mặc định"
 msgid "Testimonial"
 msgstr "Cảm nhận"
 
-#: includes/widgets/social-icons.php:189 includes/widgets/social-icons.php:350
+#: includes/widgets/social-icons.php:189 includes/widgets/social-icons.php:346
 msgid "Official Color"
 msgstr "Màu chính thức"
 
@@ -2632,7 +2631,7 @@ msgstr "Bình luận"
 msgid "Share Button"
 msgstr "Nút chia sẻ"
 
-#: includes/widgets/video.php:452 includes/widgets/audio.php:174
+#: includes/widgets/audio.php:174 includes/widgets/video.php:452
 msgid "Download Button"
 msgstr "Nút tải xuống"
 
@@ -2652,7 +2651,7 @@ msgstr "Trình phát trực quan"
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: includes/elements/column.php:326 includes/elements/section.php:591
+#: includes/elements/section.php:591 includes/elements/column.php:326
 msgid "Background Overlay"
 msgstr "Lớp phủ nền"
 
@@ -2715,16 +2714,15 @@ msgstr "Plugin không hoạt động"
 msgid "I found a better plugin"
 msgstr "Tôi tìm ra plugin tốt hơn"
 
-#: includes/widgets/image.php:195 includes/widgets/image-carousel.php:182
+#: includes/widgets/image-carousel.php:182 includes/widgets/image.php:195
 msgid "Custom URL"
 msgstr "URL Tùy chỉnh"
 
-#: includes/widgets/common.php:197 includes/widgets/toggle.php:302
-#: includes/widgets/toggle.php:450 includes/widgets/accordion.php:278
-#: includes/widgets/accordion.php:425 includes/elements/column.php:252
-#: includes/elements/section.php:518
 #: core/kits/documents/tabs/settings-background.php:18
-#: core/kits/manager.php:124
+#: core/kits/manager.php:124 includes/elements/section.php:518
+#: includes/elements/column.php:252 includes/widgets/common.php:197
+#: includes/widgets/accordion.php:278 includes/widgets/accordion.php:425
+#: includes/widgets/toggle.php:302 includes/widgets/toggle.php:450
 msgid "Background"
 msgstr "Nền"
 
@@ -2732,13 +2730,13 @@ msgstr "Nền"
 msgid "Wider"
 msgstr "Rộng hơn"
 
-#: includes/settings/settings.php:407 includes/settings/tools.php:212
-#: includes/managers/elements.php:279 core/role-manager/role-manager.php:57
 #: core/common/modules/finder/categories/general.php:28
+#: core/role-manager/role-manager.php:57 includes/settings/tools.php:212
+#: includes/settings/settings.php:407 includes/managers/elements.php:279
 msgid "General"
 msgstr "Chung"
 
-#: includes/editor-templates/hotkeys.php:43 core/editor/editor.php:753
+#: core/editor/editor.php:754 includes/editor-templates/hotkeys.php:43
 msgid "Paste"
 msgstr "Dán"
 
@@ -2750,11 +2748,11 @@ msgstr "Tốc độ Animation"
 msgid "Arrows and Dots"
 msgstr "Mũi tên và Dấu chấm"
 
-#: core/editor/editor.php:709
+#: core/editor/editor.php:710
 msgid "You must call 'the_content' function in the current template, in order for Elementor to work on this page."
 msgstr "Bạn phải gọi hàm 'the_content' trong mẫu hiện tại, để Elementor hoạt động trên trang này."
 
-#: core/editor/editor.php:708
+#: core/editor/editor.php:709
 msgid "Sorry, the content area was not found in your page."
 msgstr "Rất tiếc, không tìm thấy khu vực nội dung trong trang của bạn."
 
@@ -2766,13 +2764,13 @@ msgstr "Bạn có thể cắt kích thước hình ảnh gốc thành bất kỳ
 msgid "Additional Options"
 msgstr "Tùy chọn bổ sung"
 
-#: includes/widgets/divider.php:737 includes/widgets/divider.php:877
-#: includes/widgets/star-rating.php:283 includes/widgets/toggle.php:422
-#: includes/widgets/accordion.php:397 includes/widgets/image-gallery.php:191
-#: includes/widgets/image.php:602 includes/widgets/social-icons.php:431
 #: includes/widgets/icon-box.php:350 includes/widgets/icon-box.php:517
-#: includes/widgets/image-box.php:225 includes/widgets/image-box.php:451
-#: includes/widgets/image-carousel.php:551
+#: includes/widgets/image-gallery.php:191 includes/widgets/image-box.php:225
+#: includes/widgets/image-box.php:451 includes/widgets/social-icons.php:427
+#: includes/widgets/divider.php:737 includes/widgets/divider.php:877
+#: includes/widgets/image-carousel.php:551 includes/widgets/accordion.php:397
+#: includes/widgets/image.php:602 includes/widgets/star-rating.php:283
+#: includes/widgets/toggle.php:422
 msgid "Spacing"
 msgstr "Khoảng cách"
 
@@ -2786,8 +2784,8 @@ msgstr "Bên ngoài"
 msgid "Inside"
 msgstr "Bên trong"
 
-#: includes/widgets/image-carousel.php:361
 #: includes/controls/groups/background.php:737
+#: includes/widgets/image-carousel.php:361
 msgid "Direction"
 msgstr "Hướng"
 
@@ -2799,8 +2797,8 @@ msgstr "Kéo dãn ảnh"
 msgid "Intro Byline"
 msgstr "Giới thiệu"
 
+#: includes/elements/section.php:1236 includes/elements/column.php:807
 #: includes/widgets/common.php:161 includes/widgets/counter.php:159
-#: includes/elements/column.php:807 includes/elements/section.php:1236
 msgid "Animation Duration"
 msgstr "Thời lượng hoạt ảnh"
 
@@ -2809,7 +2807,7 @@ msgstr "Thời lượng hoạt ảnh"
 msgid "Image Carousel"
 msgstr "Hình ảnh băng chuyền"
 
-#: includes/widgets/video.php:440 includes/widgets/audio.php:243
+#: includes/widgets/audio.php:243 includes/widgets/video.php:440
 msgid "Controls Color"
 msgstr "Kiểm soát màu sắc"
 
@@ -2830,12 +2828,12 @@ msgstr "Hiển thị"
 msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
 msgstr "Máy chủ chưa cài đặt hoặc kích hoạt ImageMagick hoặc GD! Bất kỳ thư viện nào trong số đó là bắt buộc cho WordPress để có thể thay đổi kích thước hình ảnh. Vui lòng liên hệ người quản trị máy chủ để bật tính năng trên trước khi tiếp tục."
 
-#: core/editor/editor.php:717
+#: core/editor/editor.php:718
 msgid "Insert Media"
 msgstr "Chèn Media"
 
 #. translators: %s: The number of images.
-#: core/editor/editor.php:715
+#: core/editor/editor.php:716
 msgid "%s Images Selected"
 msgstr "%s Hình ảnh đã được chọn"
 
@@ -2869,7 +2867,7 @@ msgctxt "Border Control"
 msgid "Solid"
 msgstr "Nét liền"
 
-#: core/editor/editor.php:716
+#: core/editor/editor.php:717
 msgid "No Images Selected"
 msgstr "Chưa có hình ảnh được chọn"
 
@@ -2893,11 +2891,11 @@ msgstr "Ảnh chân dung dùng cho giới thiệu"
 msgid "Effect"
 msgstr "Hiệu ứng"
 
-#: core/editor/editor.php:713
+#: core/editor/editor.php:714
 msgid "Are you sure you want to reset this gallery?"
 msgstr "Bạn có chắc chắn muốn đặt lại thư viện này không?"
 
-#: core/editor/editor.php:712
+#: core/editor/editor.php:713
 msgid "Reset Gallery"
 msgstr "Đặt lại Thư viện"
 
@@ -2919,8 +2917,8 @@ msgstr "Căn chỉnh theo chiều dọc"
 msgid "Dots"
 msgstr "Dấu chấm"
 
-#: includes/widgets/image-carousel.php:319
 #: includes/controls/groups/background.php:633
+#: includes/widgets/image-carousel.php:319
 msgid "Infinite Loop"
 msgstr "Lặp lại vô hạn"
 
@@ -2934,8 +2932,8 @@ msgctxt "Typography Control"
 msgid "None"
 msgstr "Không"
 
-#: includes/widgets/common.php:134 includes/elements/column.php:760
-#: includes/elements/section.php:1209
+#: includes/elements/section.php:1209 includes/elements/column.php:760
+#: includes/widgets/common.php:134
 msgid "Add your custom class WITHOUT the dot. e.g: my-class"
 msgstr "Thêm custom class tại đây KHÔNG gồm ký tự . ví dụ: my-class"
 
@@ -2943,8 +2941,8 @@ msgstr "Thêm custom class tại đây KHÔNG gồm ký tự . ví dụ: my-clas
 msgid "This is the heading"
 msgstr "Đây là heading"
 
-#: includes/widgets/toggle.php:208 includes/widgets/accordion.php:207
 #: includes/widgets/icon-box.php:219 includes/widgets/image-box.php:186
+#: includes/widgets/accordion.php:207 includes/widgets/toggle.php:208
 msgid "Title HTML Tag"
 msgstr "Tiêu đề thẻ HTML"
 
@@ -2965,22 +2963,17 @@ msgctxt "System Info"
 msgid "We recommend to use php 5.4 or higher"
 msgstr "Chúng tôi khuyên sử dụng php 5.4 trở lên"
 
-#: includes/editor-templates/panel-elements.php:10
 #: modules/history/module.php:66
+#: includes/editor-templates/panel-elements.php:10
 msgid "Elements"
 msgstr "Các thành phần"
 
-#: includes/settings/settings.php:371 includes/managers/controls.php:304
-#: includes/editor-templates/panel.php:68 core/editor/editor.php:642
-#: core/admin/admin.php:271
 #: core/common/modules/finder/categories/settings.php:28
-#: core/dynamic-tags/base-tag.php:171
+#: core/dynamic-tags/base-tag.php:171 core/editor/editor.php:643
+#: core/admin/admin.php:271 includes/settings/settings.php:371
+#: includes/editor-templates/panel.php:68 includes/managers/controls.php:304
 msgid "Settings"
 msgstr "Cài đặt"
-
-#. Description of the plugin
-msgid "The most advanced frontend drag & drop page builder. Create high-end, pixel perfect websites at record speeds. Any theme, any page, any design."
-msgstr "Trình xây dựng trang kéo & thả đầu tiên tiên tiến nhất. Tạo trang web hoàn hảo, pixel hoàn hảo ở tốc độ kỷ lục. Bất kỳ chủ đề, trang nào, bất kỳ thiết kế nào."
 
 #: includes/controls/groups/typography.php:167
 msgctxt "Typography Control"
@@ -3026,25 +3019,25 @@ msgstr "Gấp đôi"
 msgid "No Gap"
 msgstr "Không có khoảng cách"
 
-#: includes/widgets/text-editor.php:149 includes/elements/section.php:281
+#: includes/elements/section.php:281 includes/widgets/text-editor.php:149
 msgid "Columns Gap"
 msgstr "Khoảng cách cách cột"
 
-#: includes/widgets/divider.php:483 includes/widgets/divider.php:510
-#: includes/widgets/divider.php:677 includes/widgets/button.php:136
-#: includes/widgets/icon-list.php:120 includes/widgets/icon-list.php:473
+#: core/schemes/color.php:95 core/kits/documents/tabs/global-colors.php:76
 #: core/kits/documents/tabs/global-typography.php:125
-#: core/kits/documents/tabs/global-colors.php:76 core/schemes/color.php:95
+#: includes/widgets/button.php:136 includes/widgets/divider.php:483
+#: includes/widgets/divider.php:510 includes/widgets/divider.php:677
+#: includes/widgets/icon-list.php:120 includes/widgets/icon-list.php:473
 msgid "Text"
 msgstr "Văn bản"
 
+#: core/schemes/color.php:94 core/kits/documents/tabs/global-colors.php:71
 #: core/kits/documents/tabs/global-typography.php:118
-#: core/kits/documents/tabs/global-colors.php:71 core/schemes/color.php:94
 msgid "Secondary"
 msgstr "Thứ cấp"
 
+#: core/schemes/color.php:96 core/kits/documents/tabs/global-colors.php:81
 #: core/kits/documents/tabs/global-typography.php:132
-#: core/kits/documents/tabs/global-colors.php:81 core/schemes/color.php:96
 msgid "Accent"
 msgstr "Dấu nhấn"
 
@@ -3060,8 +3053,8 @@ msgstr "Thân văn bản"
 msgid "Primary Headline"
 msgstr "Tiêu đề chính"
 
+#: core/schemes/color.php:93 core/kits/documents/tabs/global-colors.php:66
 #: core/kits/documents/tabs/global-typography.php:111
-#: core/kits/documents/tabs/global-colors.php:66 core/schemes/color.php:93
 msgid "Primary"
 msgstr "Chính"
 
@@ -3082,12 +3075,12 @@ msgstr "Tiêu đề của Accordion"
 msgid "Accordion Items"
 msgstr "Các phần tử Accordion"
 
-#: core/editor/editor.php:599
+#: core/editor/editor.php:600
 msgid "Clear"
 msgstr "Dọn sạch"
 
-#: includes/widgets/counter.php:45 includes/widgets/counter.php:102
 #: core/kits/documents/tabs/settings-lightbox.php:44
+#: includes/widgets/counter.php:45 includes/widgets/counter.php:102
 msgid "Counter"
 msgstr "Bộ đếm"
 
@@ -3133,20 +3126,20 @@ msgstr "Cool Number"
 msgid "Gap"
 msgstr "Khoảng trống"
 
-#: includes/widgets/common.php:166 includes/widgets/common.php:207
-#: includes/widgets/common.php:274 includes/widgets/heading.php:261
-#: includes/widgets/button.php:301 includes/widgets/google-maps.php:183
-#: includes/widgets/image.php:386 includes/widgets/icon.php:205
-#: includes/widgets/icon-box.php:261 includes/widgets/image-box.php:297
-#: includes/elements/column.php:262 includes/elements/column.php:339
-#: includes/elements/column.php:388 includes/elements/column.php:491
-#: includes/elements/column.php:812 includes/elements/section.php:528
-#: includes/elements/section.php:601 includes/elements/section.php:665
-#: includes/elements/section.php:784 includes/elements/section.php:1241
-#: core/kits/documents/tabs/theme-style-form-fields.php:107
-#: core/kits/documents/tabs/theme-style-typography.php:114
 #: core/kits/documents/tabs/theme-style-images.php:51
+#: core/kits/documents/tabs/theme-style-typography.php:114
 #: core/kits/documents/tabs/theme-style-buttons.php:79
+#: core/kits/documents/tabs/theme-style-form-fields.php:107
+#: includes/elements/section.php:528 includes/elements/section.php:601
+#: includes/elements/section.php:665 includes/elements/section.php:784
+#: includes/elements/section.php:1241 includes/elements/column.php:262
+#: includes/elements/column.php:339 includes/elements/column.php:388
+#: includes/elements/column.php:491 includes/elements/column.php:812
+#: includes/widgets/button.php:301 includes/widgets/google-maps.php:183
+#: includes/widgets/icon-box.php:261 includes/widgets/icon.php:205
+#: includes/widgets/common.php:166 includes/widgets/common.php:207
+#: includes/widgets/common.php:274 includes/widgets/image-box.php:297
+#: includes/widgets/heading.php:261 includes/widgets/image.php:386
 msgid "Normal"
 msgstr "Bình thường"
 
@@ -3154,9 +3147,9 @@ msgstr "Bình thường"
 msgid "Pause on Hover"
 msgstr "Ngừng lại khi di chuột"
 
+#: core/base/document.php:427 core/admin/admin.php:155 core/admin/admin.php:163
 #: modules/admin-bar/module.php:107 modules/gutenberg/module.php:94
-#: modules/gutenberg/module.php:104 core/base/document.php:427
-#: core/admin/admin.php:155 core/admin/admin.php:163
+#: modules/gutenberg/module.php:104
 msgid "Edit with Elementor"
 msgstr "Sửa với Elementor"
 
@@ -3186,31 +3179,32 @@ msgctxt "Background Control"
 msgid "Color"
 msgstr "Màu sắc"
 
-#: includes/base/widget-base.php:241 includes/settings/settings.php:527
-#: includes/widgets/common.php:382 includes/widgets/common.php:483
-#: includes/widgets/divider.php:770 includes/widgets/image-gallery.php:146
-#: includes/widgets/image-gallery.php:162
-#: includes/widgets/image-gallery.php:194 includes/widgets/heading.php:143
-#: includes/widgets/button.php:123 includes/widgets/text-editor.php:131
-#: includes/widgets/text-editor.php:258 includes/widgets/icon-list.php:100
-#: includes/widgets/image.php:223 includes/widgets/image.php:362
-#: includes/widgets/icon.php:126 includes/widgets/progress.php:113
-#: includes/widgets/icon-box.php:111 includes/widgets/image-carousel.php:122
-#: includes/widgets/image-carousel.php:135
-#: includes/widgets/image-carousel.php:207
-#: includes/widgets/image-carousel.php:554 includes/controls/animation.php:146
-#: includes/controls/font.php:67 includes/controls/groups/typography.php:132
+#: core/editor/editor.php:631 modules/page-templates/module.php:289
+#: includes/settings/settings.php:527 includes/base/widget-base.php:241
+#: includes/controls/font.php:67 includes/controls/animation.php:146
+#: includes/controls/groups/background.php:687
+#: includes/controls/groups/background.php:706
+#: includes/controls/groups/typography.php:132
 #: includes/controls/groups/typography.php:151
 #: includes/controls/groups/typography.php:164
 #: includes/controls/groups/typography.php:176
-#: includes/controls/groups/background.php:687
-#: includes/controls/groups/background.php:706
-#: includes/editor-templates/panel.php:229 includes/elements/column.php:166
+#: includes/editor-templates/panel.php:229 includes/elements/section.php:285
+#: includes/elements/section.php:302 includes/elements/section.php:352
+#: includes/elements/section.php:413 includes/elements/section.php:441
+#: includes/elements/section.php:477 includes/elements/column.php:166
 #: includes/elements/column.php:194 includes/elements/column.php:234
-#: includes/elements/section.php:285 includes/elements/section.php:302
-#: includes/elements/section.php:352 includes/elements/section.php:413
-#: includes/elements/section.php:441 includes/elements/section.php:477
-#: modules/page-templates/module.php:289 core/editor/editor.php:630
+#: includes/widgets/button.php:123 includes/widgets/icon-box.php:111
+#: includes/widgets/icon.php:126 includes/widgets/text-editor.php:131
+#: includes/widgets/text-editor.php:258 includes/widgets/image-gallery.php:146
+#: includes/widgets/image-gallery.php:162
+#: includes/widgets/image-gallery.php:194 includes/widgets/common.php:382
+#: includes/widgets/common.php:483 includes/widgets/progress.php:113
+#: includes/widgets/heading.php:143 includes/widgets/divider.php:770
+#: includes/widgets/image-carousel.php:122
+#: includes/widgets/image-carousel.php:135
+#: includes/widgets/image-carousel.php:207
+#: includes/widgets/image-carousel.php:554 includes/widgets/icon-list.php:100
+#: includes/widgets/image.php:223 includes/widgets/image.php:362
 msgid "Default"
 msgstr "Mặc định"
 
@@ -3232,64 +3226,66 @@ msgstr "Google"
 msgid "System"
 msgstr "Hệ thống"
 
-#: includes/widgets/image-gallery.php:128 includes/widgets/heading.php:124
-#: includes/widgets/video.php:125 includes/widgets/video.php:146
-#: includes/widgets/video.php:167 includes/widgets/button.php:149
-#: includes/widgets/audio.php:103 includes/widgets/icon-list.php:147
-#: includes/widgets/image.php:189 includes/widgets/image.php:203
-#: includes/widgets/social-icons.php:170 includes/widgets/icon.php:155
-#: includes/widgets/testimonial.php:155 includes/widgets/icon-box.php:171
-#: includes/widgets/image-box.php:148 includes/widgets/image-carousel.php:176
-#: includes/widgets/image-carousel.php:190
 #: core/kits/documents/tabs/theme-style-typography.php:104
+#: includes/widgets/button.php:149 includes/widgets/audio.php:103
+#: includes/widgets/icon-box.php:171 includes/widgets/icon.php:155
+#: includes/widgets/image-gallery.php:128 includes/widgets/image-box.php:148
+#: includes/widgets/social-icons.php:170 includes/widgets/heading.php:124
+#: includes/widgets/image-carousel.php:176
+#: includes/widgets/image-carousel.php:190 includes/widgets/video.php:125
+#: includes/widgets/video.php:146 includes/widgets/video.php:167
+#: includes/widgets/icon-list.php:147 includes/widgets/image.php:189
+#: includes/widgets/image.php:203 includes/widgets/testimonial.php:155
 msgid "Link"
 msgstr "Liên kết"
 
-#: includes/widgets/common.php:492 includes/widgets/common.php:493
-#: includes/widgets/divider.php:452 includes/widgets/divider.php:717
-#: includes/widgets/divider.php:857 includes/widgets/star-rating.php:174
-#: includes/widgets/image-gallery.php:283 includes/widgets/heading.php:180
-#: includes/widgets/button.php:168 includes/widgets/text-editor.php:192
-#: includes/widgets/icon-list.php:242 includes/widgets/icon-list.php:449
-#: includes/widgets/image.php:138 includes/widgets/image.php:531
-#: includes/widgets/social-icons.php:301 includes/widgets/icon.php:171
-#: includes/widgets/testimonial.php:190 includes/widgets/icon-box.php:189
-#: includes/widgets/icon-box.php:468 includes/widgets/image-box.php:166
-#: includes/widgets/image-box.php:402 includes/widgets/image-carousel.php:365
-#: includes/widgets/image-carousel.php:628 includes/controls/dimensions.php:91
-#: includes/elements/column.php:669 includes/elements/section.php:1112
+#: includes/controls/dimensions.php:91 includes/elements/section.php:1112
+#: includes/elements/column.php:669 includes/widgets/button.php:168
+#: includes/widgets/icon-box.php:189 includes/widgets/icon-box.php:468
+#: includes/widgets/icon.php:171 includes/widgets/text-editor.php:192
+#: includes/widgets/image-gallery.php:283 includes/widgets/common.php:492
+#: includes/widgets/common.php:493 includes/widgets/image-box.php:166
+#: includes/widgets/image-box.php:402 includes/widgets/social-icons.php:301
+#: includes/widgets/heading.php:180 includes/widgets/divider.php:452
+#: includes/widgets/divider.php:717 includes/widgets/divider.php:857
+#: includes/widgets/image-carousel.php:365
+#: includes/widgets/image-carousel.php:628 includes/widgets/icon-list.php:242
+#: includes/widgets/icon-list.php:449 includes/widgets/image.php:138
+#: includes/widgets/image.php:531 includes/widgets/star-rating.php:174
+#: includes/widgets/testimonial.php:190
 msgid "Left"
 msgstr "Bên trái"
 
-#: includes/widgets/common.php:611 includes/widgets/icon-box.php:498
-#: includes/widgets/image-box.php:432 includes/controls/dimensions.php:90
-#: includes/elements/column.php:169 includes/elements/section.php:394
+#: includes/controls/dimensions.php:90 includes/elements/section.php:394
 #: includes/elements/section.php:416 includes/elements/section.php:915
+#: includes/elements/column.php:169 includes/widgets/icon-box.php:498
+#: includes/widgets/common.php:611 includes/widgets/image-box.php:432
 msgid "Bottom"
 msgstr "Bên dưới"
 
-#: includes/widgets/common.php:492 includes/widgets/common.php:493
-#: includes/widgets/divider.php:460 includes/widgets/divider.php:725
-#: includes/widgets/divider.php:865 includes/widgets/star-rating.php:182
-#: includes/widgets/image-gallery.php:291 includes/widgets/heading.php:188
-#: includes/widgets/button.php:176 includes/widgets/text-editor.php:200
-#: includes/widgets/icon-list.php:250 includes/widgets/icon-list.php:457
-#: includes/widgets/image.php:146 includes/widgets/image.php:539
-#: includes/widgets/social-icons.php:309 includes/widgets/icon.php:179
-#: includes/widgets/testimonial.php:198 includes/widgets/icon-box.php:197
-#: includes/widgets/icon-box.php:476 includes/widgets/image-box.php:174
-#: includes/widgets/image-box.php:410 includes/widgets/image-carousel.php:366
-#: includes/widgets/image-carousel.php:636 includes/controls/dimensions.php:89
-#: includes/elements/column.php:677 includes/elements/section.php:1120
+#: includes/controls/dimensions.php:89 includes/elements/section.php:1120
+#: includes/elements/column.php:677 includes/widgets/button.php:176
+#: includes/widgets/icon-box.php:197 includes/widgets/icon-box.php:476
+#: includes/widgets/icon.php:179 includes/widgets/text-editor.php:200
+#: includes/widgets/image-gallery.php:291 includes/widgets/common.php:492
+#: includes/widgets/common.php:493 includes/widgets/image-box.php:174
+#: includes/widgets/image-box.php:410 includes/widgets/social-icons.php:309
+#: includes/widgets/heading.php:188 includes/widgets/divider.php:460
+#: includes/widgets/divider.php:725 includes/widgets/divider.php:865
+#: includes/widgets/image-carousel.php:366
+#: includes/widgets/image-carousel.php:636 includes/widgets/icon-list.php:250
+#: includes/widgets/icon-list.php:457 includes/widgets/image.php:146
+#: includes/widgets/image.php:539 includes/widgets/star-rating.php:182
+#: includes/widgets/testimonial.php:198
 msgid "Right"
 msgstr "Bên phải"
 
-#: includes/widgets/common.php:607 includes/widgets/video.php:750
-#: includes/widgets/testimonial.php:172 includes/widgets/icon-box.php:193
-#: includes/widgets/icon-box.php:496 includes/widgets/image-box.php:170
-#: includes/widgets/image-box.php:430 includes/controls/dimensions.php:88
-#: includes/elements/column.php:167 includes/elements/section.php:392
+#: includes/controls/dimensions.php:88 includes/elements/section.php:392
 #: includes/elements/section.php:414 includes/elements/section.php:914
+#: includes/elements/column.php:167 includes/widgets/icon-box.php:193
+#: includes/widgets/icon-box.php:496 includes/widgets/common.php:607
+#: includes/widgets/image-box.php:170 includes/widgets/image-box.php:430
+#: includes/widgets/video.php:750 includes/widgets/testimonial.php:172
 msgid "Top"
 msgstr "Bên trên"
 
@@ -3410,21 +3406,21 @@ msgstr "Nét đứt"
 msgid "Dotted"
 msgstr "Chấm"
 
-#: includes/widgets/divider.php:320 includes/widgets/star-rating.php:143
-#: includes/widgets/icon-list.php:278
+#: includes/widgets/divider.php:320 includes/widgets/icon-list.php:278
+#: includes/widgets/star-rating.php:143
 msgid "Solid"
 msgstr "Nét liền"
 
-#: includes/widgets/divider.php:479 includes/widgets/image-gallery.php:134
-#: includes/widgets/image.php:162 includes/widgets/image.php:193
-#: includes/widgets/image-carousel.php:167
-#: includes/widgets/image-carousel.php:180
-#: includes/widgets/image-carousel.php:224 includes/controls/icons.php:109
-#: includes/controls/icons.php:111 includes/controls/animation.php:147
-#: includes/controls/groups/border.php:63
-#: includes/controls/hover-animation.php:119 includes/elements/section.php:906
 #: core/kits/documents/tabs/settings-lightbox.php:87
 #: core/kits/documents/tabs/settings-lightbox.php:104
+#: includes/controls/animation.php:147 includes/controls/icons.php:109
+#: includes/controls/icons.php:111 includes/controls/groups/border.php:63
+#: includes/controls/hover-animation.php:119 includes/elements/section.php:906
+#: includes/widgets/image-gallery.php:134 includes/widgets/divider.php:479
+#: includes/widgets/image-carousel.php:167
+#: includes/widgets/image-carousel.php:180
+#: includes/widgets/image-carousel.php:224 includes/widgets/image.php:162
+#: includes/widgets/image.php:193
 msgid "None"
 msgstr "Không"
 
@@ -3462,10 +3458,10 @@ msgstr "Lặp lại chiều dọc"
 msgid "Select Icon"
 msgstr "Chọn Icon"
 
-#: includes/maintenance-mode.php:226 includes/widgets/common.php:385
-#: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:190
-#: includes/widgets/social-icons.php:351
-#: includes/widgets/image-carousel.php:555 core/editor/editor.php:636
+#: core/editor/editor.php:637 includes/maintenance-mode.php:226
+#: includes/widgets/image-gallery.php:195 includes/widgets/common.php:385
+#: includes/widgets/social-icons.php:190 includes/widgets/social-icons.php:347
+#: includes/widgets/image-carousel.php:555
 msgid "Custom"
 msgstr "Tùy chỉnh"
 
@@ -3494,11 +3490,11 @@ msgctxt "Typography Control"
 msgid "Family"
 msgstr "Family"
 
-#: includes/editor-templates/templates.php:18
+#: core/editor/editor.php:734 includes/editor-templates/templates.php:18
 #: includes/editor-templates/templates.php:19
 #: includes/editor-templates/templates.php:211
 #: includes/editor-templates/templates.php:222
-#: includes/editor-templates/hotkeys.php:75 core/editor/editor.php:733
+#: includes/editor-templates/hotkeys.php:75
 msgid "Save"
 msgstr "Lưu"
 
@@ -3506,8 +3502,8 @@ msgstr "Lưu"
 msgid "Help"
 msgstr "Giúp đỡ"
 
-#: includes/editor-templates/panel.php:94 includes/elements/section.php:1281
 #: core/kits/documents/tabs/settings-layout.php:164
+#: includes/editor-templates/panel.php:94 includes/elements/section.php:1281
 msgid "Tablet"
 msgstr "Máy tính bảng"
 
@@ -3515,9 +3511,9 @@ msgstr "Máy tính bảng"
 msgid "Desktop"
 msgstr "Máy tính"
 
+#: includes/editor-templates/hotkeys.php:108
 #: includes/editor-templates/panel.php:81
 #: includes/editor-templates/panel.php:83
-#: includes/editor-templates/hotkeys.php:108
 msgid "Responsive Mode"
 msgstr "Chế độ Responsive"
 
@@ -3535,21 +3531,20 @@ msgstr "Menu"
 msgid "Search Widget..."
 msgstr "Tìm Widget..."
 
-#: includes/editor-templates/templates.php:50
+#: core/admin/admin.php:174 modules/gutenberg/module.php:115
 #: includes/editor-templates/editor-wrapper.php:50
-#: modules/gutenberg/module.php:115 core/admin/admin.php:174
-#: assets/js/app-packages.js:6885
+#: includes/editor-templates/templates.php:50 assets/js/app-packages.js:6885
 msgid "Loading"
 msgstr "Đang tải"
 
 #. Plugin Name of the plugin
-#: includes/settings/settings.php:76 includes/settings/settings.php:77
-#: includes/settings/settings.php:553 includes/plugin.php:719
-#: includes/editor-templates/editor-wrapper.php:30 core/editor/editor.php:595
-#: core/upgrade/manager.php:36 core/app/view.php:21 core/admin/admin.php:222
+#: core/upgrade/manager.php:36 core/editor/editor.php:596
+#: core/documents-manager.php:355 core/app/view.php:21 core/admin/admin.php:222
 #: core/admin/admin.php:332 core/admin/admin.php:400
-#: core/documents-manager.php:355 assets/js/app-packages.js:7512
-#: assets/js/app.js:6776
+#: includes/settings/settings.php:76 includes/settings/settings.php:77
+#: includes/settings/settings.php:553
+#: includes/editor-templates/editor-wrapper.php:30 includes/plugin.php:719
+#: assets/js/app.js:6776 assets/js/app-packages.js:7512
 msgid "Elementor"
 msgstr "Elementor"
 
@@ -3557,12 +3552,12 @@ msgstr "Elementor"
 msgid "Add Item"
 msgstr "Thêm mục"
 
-#: includes/editor-templates/templates.php:182
-#: includes/editor-templates/hotkeys.php:60 core/editor/editor.php:597
+#: core/editor/editor.php:598 includes/editor-templates/templates.php:182
+#: includes/editor-templates/hotkeys.php:60
 msgid "Delete"
 msgstr "Xóa"
 
-#: core/editor/editor.php:798
+#: core/editor/editor.php:799
 msgid "Soon"
 msgstr "Sớm"
 
@@ -3570,34 +3565,34 @@ msgstr "Sớm"
 msgid "Colors"
 msgstr "Màu sắc"
 
-#: core/editor/editor.php:730
+#: core/editor/editor.php:731
 msgid "Please note: All unsaved changes will be lost."
 msgstr "Xin lưu ý: Tất cả các thay đổi chưa được lưu sẽ bị mất."
 
-#: core/editor/editor.php:734
+#: core/editor/editor.php:735
 msgid "Saved"
 msgstr "Đã lưu"
 
-#: core/editor/editor.php:722 assets/js/app-packages.js:7839
-#: assets/js/app-packages.js:9299 assets/js/app.js:7103
+#: core/editor/editor.php:723 assets/js/app.js:7103
+#: assets/js/app-packages.js:7839 assets/js/app-packages.js:9299
 msgid "Go Back"
 msgstr "Quay lại"
 
-#: core/editor/editor.php:723
+#: core/editor/editor.php:724
 msgid "Take Over"
 msgstr "Tiếp nhận"
 
-#: core/editor/editor.php:598 core/admin/admin.php:714
+#: core/editor/editor.php:599 core/admin/admin.php:714
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
 #. translators: %s: User name.
-#: core/editor/editor.php:721
+#: core/editor/editor.php:722
 msgid "%s has taken over and is currently editing. Do you want to take over this page editing?"
 msgstr "%s đã tiếp quản và hiện đang chỉnh sửa. Bạn có muốn tiếp quản chỉnh sửa trang này không?"
 
 #. translators: %s: Template type.
-#: core/editor/editor.php:727
+#: core/editor/editor.php:728
 msgid "Are you sure you want to remove this %s?"
 msgstr "Bạn có chắc chắn muốn gỡ bỏ %s?"
 
@@ -3609,19 +3604,19 @@ msgstr "Bảng màu khác"
 msgid "Color Palette"
 msgstr "Bảng Màu"
 
+#: core/schemes/base-ui.php:119
+#: modules/history/views/revisions-panel-template.php:18
 #: includes/controls/image-dimensions.php:104
 #: includes/editor-templates/panel.php:174
-#: modules/history/views/revisions-panel-template.php:18
-#: core/schemes/base-ui.php:119
 msgid "Apply"
 msgstr "Áp dụng"
 
-#: modules/history/views/revisions-panel-template.php:13
 #: core/schemes/base-ui.php:115
+#: modules/history/views/revisions-panel-template.php:13
 msgid "Discard"
 msgstr "Loại bỏ"
 
-#: includes/controls/structure.php:66 core/schemes/base-ui.php:109
+#: core/schemes/base-ui.php:109 includes/controls/structure.php:66
 msgid "Reset"
 msgstr "Làm lại"
 
@@ -3629,31 +3624,29 @@ msgstr "Làm lại"
 msgid "Preview"
 msgstr "Xem trước"
 
-#: includes/elements/column.php:616 includes/elements/section.php:1059
+#: includes/elements/section.php:1059 includes/elements/column.php:616
 msgid "Heading Color"
 msgstr "Màu sắc Heading"
 
-#: includes/widgets/star-rating.php:213 includes/widgets/counter.php:230
-#: includes/widgets/counter.php:265 includes/widgets/image-gallery.php:312
-#: includes/widgets/heading.php:225 includes/widgets/alert.php:221
-#: includes/widgets/alert.php:253 includes/widgets/button.php:308
-#: includes/widgets/button.php:343 includes/widgets/text-editor.php:217
-#: includes/widgets/icon-list.php:481 includes/widgets/image.php:557
-#: includes/widgets/testimonial.php:229 includes/widgets/testimonial.php:319
-#: includes/widgets/testimonial.php:356 includes/widgets/progress.php:272
-#: includes/widgets/image-carousel.php:654 includes/elements/column.php:629
-#: includes/elements/section.php:1072
-#: core/kits/documents/tabs/theme-style-form-fields.php:165
 #: core/kits/documents/tabs/theme-style-typography.php:44
+#: core/kits/documents/tabs/settings-lightbox.php:151
 #: core/kits/documents/tabs/theme-style-buttons.php:86
 #: core/kits/documents/tabs/theme-style-buttons.php:152
-#: core/kits/documents/tabs/settings-lightbox.php:151
+#: core/kits/documents/tabs/theme-style-form-fields.php:165
+#: includes/elements/section.php:1072 includes/elements/column.php:629
+#: includes/widgets/button.php:308 includes/widgets/button.php:343
+#: includes/widgets/alert.php:221 includes/widgets/alert.php:253
+#: includes/widgets/text-editor.php:217 includes/widgets/image-gallery.php:312
+#: includes/widgets/progress.php:272 includes/widgets/heading.php:225
+#: includes/widgets/image-carousel.php:654 includes/widgets/icon-list.php:481
+#: includes/widgets/counter.php:230 includes/widgets/counter.php:265
+#: includes/widgets/image.php:557 includes/widgets/star-rating.php:213
+#: includes/widgets/testimonial.php:229 includes/widgets/testimonial.php:319
+#: includes/widgets/testimonial.php:356
 msgid "Text Color"
 msgstr "Màu chữ"
 
-#: includes/elements/column.php:607 includes/elements/section.php:1051
-#: core/kits/documents/tabs/theme-style-form-fields.php:78
-#: core/kits/documents/tabs/theme-style-form-fields.php:96
+#: core/schemes/typography.php:64 core/editor/editor.php:623
 #: core/kits/documents/tabs/theme-style-typography.php:19
 #: core/kits/documents/tabs/theme-style-typography.php:26
 #: core/kits/documents/tabs/theme-style-typography.php:56
@@ -3661,7 +3654,9 @@ msgstr "Màu chữ"
 #: core/kits/documents/tabs/theme-style-typography.php:163
 #: core/kits/documents/tabs/theme-style-typography.php:209
 #: core/kits/documents/tabs/theme-style-buttons.php:60
-#: core/editor/editor.php:622 core/schemes/typography.php:64
+#: core/kits/documents/tabs/theme-style-form-fields.php:78
+#: core/kits/documents/tabs/theme-style-form-fields.php:96
+#: includes/elements/section.php:1051 includes/elements/column.php:607
 msgid "Typography"
 msgstr "Kiểu chữ"
 
@@ -3677,35 +3672,34 @@ msgstr "Cột"
 msgid "Structure"
 msgstr "Cấu trúc"
 
-#: includes/widgets/common.php:703 includes/managers/controls.php:302
-#: includes/elements/column.php:843 includes/elements/section.php:1273
+#: includes/managers/controls.php:302 includes/elements/section.php:1273
+#: includes/elements/column.php:843 includes/widgets/common.php:703
 msgid "Responsive"
 msgstr "Responsive"
 
-#: includes/settings/settings.php:483 includes/widgets/common.php:58
-#: includes/managers/controls.php:301 includes/elements/column.php:693
-#: includes/elements/section.php:1136
 #: core/common/modules/finder/categories/settings.php:51
-#: core/dynamic-tags/tag.php:88
+#: core/dynamic-tags/tag.php:88 includes/settings/settings.php:483
+#: includes/managers/controls.php:301 includes/elements/section.php:1136
+#: includes/elements/column.php:693 includes/widgets/common.php:58
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#: includes/settings/settings.php:463 includes/widgets/divider.php:363
-#: includes/widgets/icon-list.php:275 includes/managers/controls.php:300
+#: includes/settings/settings.php:463 includes/managers/controls.php:300
+#: includes/widgets/divider.php:363 includes/widgets/icon-list.php:275
 msgid "Style"
 msgstr "Kiểu"
 
-#: includes/widgets/toggle.php:111 includes/widgets/toggle.php:442
-#: includes/widgets/accordion.php:110 includes/widgets/accordion.php:417
-#: includes/widgets/alert.php:125 includes/widgets/testimonial.php:95
-#: includes/widgets/testimonial.php:221 includes/widgets/tabs.php:109
-#: includes/widgets/tabs.php:291 includes/widgets/icon-box.php:456
-#: includes/widgets/image-box.php:132 includes/widgets/image-box.php:390
-#: includes/managers/controls.php:299
+#: includes/managers/controls.php:299 includes/widgets/alert.php:125
+#: includes/widgets/icon-box.php:456 includes/widgets/image-box.php:132
+#: includes/widgets/image-box.php:390 includes/widgets/accordion.php:110
+#: includes/widgets/accordion.php:417 includes/widgets/tabs.php:109
+#: includes/widgets/tabs.php:291 includes/widgets/testimonial.php:95
+#: includes/widgets/testimonial.php:221 includes/widgets/toggle.php:111
+#: includes/widgets/toggle.php:442
 msgid "Content"
 msgstr "Nội dung"
 
-#: includes/widgets/image-gallery.php:118 includes/widgets/text-editor.php:136
+#: includes/widgets/text-editor.php:136 includes/widgets/image-gallery.php:118
 #: includes/widgets/social-icons.php:272
 msgid "Columns"
 msgstr "Cột"
@@ -3714,14 +3708,14 @@ msgstr "Cột"
 msgid "Revision History"
 msgstr "Lịch sử Bản thảo"
 
-#: includes/widgets/video.php:726 includes/elements/section.php:245
-#: includes/elements/section.php:259
 #: core/kits/documents/tabs/settings-layout.php:38
+#: includes/elements/section.php:245 includes/elements/section.php:259
+#: includes/widgets/video.php:726
 msgid "Content Width"
 msgstr "Chiều rộng nội dung"
 
-#: includes/widgets/common.php:383 includes/widgets/icon-list.php:195
-#: includes/elements/section.php:250
+#: includes/elements/section.php:250 includes/widgets/common.php:383
+#: includes/widgets/icon-list.php:195
 msgid "Full Width"
 msgstr "Full Width"
 
@@ -3729,16 +3723,16 @@ msgstr "Full Width"
 msgid "Boxed"
 msgstr "Boxed"
 
-#: includes/widgets/common.php:378 includes/widgets/divider.php:421
-#: includes/widgets/icon-list.php:321 includes/widgets/image.php:255
-#: includes/widgets/image-box.php:248 includes/controls/image-dimensions.php:96
-#: includes/elements/section.php:954
+#: includes/controls/image-dimensions.php:96 includes/elements/section.php:954
+#: includes/widgets/common.php:378 includes/widgets/image-box.php:248
+#: includes/widgets/divider.php:421 includes/widgets/icon-list.php:321
+#: includes/widgets/image.php:255
 msgid "Width"
 msgstr "Chiều rộng"
 
-#: includes/widgets/icon-list.php:95 includes/managers/controls.php:303
-#: includes/elements/column.php:111 includes/elements/section.php:227
 #: core/kits/documents/tabs/settings-layout.php:21 core/kits/manager.php:109
+#: includes/managers/controls.php:303 includes/elements/section.php:227
+#: includes/elements/column.php:111 includes/widgets/icon-list.php:95
 msgid "Layout"
 msgstr "Layout"
 
@@ -3746,30 +3740,30 @@ msgstr "Layout"
 msgid "Column Width"
 msgstr "Chiều rộng cột"
 
-#: includes/elements/column.php:665 includes/elements/section.php:1108
+#: includes/elements/section.php:1108 includes/elements/column.php:665
 msgid "Text Align"
 msgstr "Căn lề"
 
-#: includes/elements/column.php:653 includes/elements/section.php:1096
+#: includes/elements/section.php:1096 includes/elements/column.php:653
 msgid "Link Hover Color"
 msgstr "Màu liên kết khi di chuột"
 
-#: includes/widgets/common.php:445 includes/widgets/divider.php:456
-#: includes/widgets/divider.php:721 includes/widgets/divider.php:861
-#: includes/widgets/star-rating.php:178 includes/widgets/image-gallery.php:287
-#: includes/widgets/heading.php:184 includes/widgets/video.php:749
-#: includes/widgets/button.php:172 includes/widgets/text-editor.php:196
+#: includes/elements/section.php:1116 includes/elements/column.php:196
+#: includes/elements/column.php:673 includes/widgets/button.php:172
+#: includes/widgets/icon-box.php:472 includes/widgets/icon.php:175
+#: includes/widgets/text-editor.php:196 includes/widgets/image-gallery.php:287
+#: includes/widgets/common.php:445 includes/widgets/image-box.php:406
+#: includes/widgets/social-icons.php:305 includes/widgets/heading.php:184
+#: includes/widgets/divider.php:456 includes/widgets/divider.php:721
+#: includes/widgets/divider.php:861 includes/widgets/image-carousel.php:531
+#: includes/widgets/image-carousel.php:632 includes/widgets/video.php:749
 #: includes/widgets/icon-list.php:246 includes/widgets/icon-list.php:453
 #: includes/widgets/image.php:142 includes/widgets/image.php:535
-#: includes/widgets/social-icons.php:305 includes/widgets/icon.php:175
-#: includes/widgets/testimonial.php:194 includes/widgets/icon-box.php:472
-#: includes/widgets/image-box.php:406 includes/widgets/image-carousel.php:531
-#: includes/widgets/image-carousel.php:632 includes/elements/column.php:196
-#: includes/elements/column.php:673 includes/elements/section.php:1116
+#: includes/widgets/star-rating.php:178 includes/widgets/testimonial.php:194
 msgid "Center"
 msgstr "Giữa"
 
-#: includes/elements/column.php:641 includes/elements/section.php:1084
+#: includes/elements/section.php:1084 includes/elements/column.php:641
 msgid "Link Color"
 msgstr "Màu liên kết"
 
@@ -3794,9 +3788,9 @@ msgstr "Hiển thị"
 msgid "Content Position"
 msgstr "Vị trí nội dung"
 
-#: includes/widgets/icon-box.php:497 includes/widgets/image-box.php:431
-#: includes/elements/column.php:168 includes/elements/section.php:393
-#: includes/elements/section.php:415
+#: includes/elements/section.php:393 includes/elements/section.php:415
+#: includes/elements/column.php:168 includes/widgets/icon-box.php:497
+#: includes/widgets/image-box.php:431
 msgid "Middle"
 msgstr "Ở giữa"
 
@@ -3820,10 +3814,10 @@ msgstr "Min Height"
 msgid "Fit To Screen"
 msgstr "Vừa màn hình"
 
-#: includes/widgets/google-maps.php:146 includes/widgets/icon-list.php:339
-#: includes/widgets/image.php:325 includes/widgets/progress.php:208
 #: includes/controls/image-dimensions.php:102 includes/elements/section.php:298
 #: includes/elements/section.php:348 includes/elements/section.php:983
+#: includes/widgets/google-maps.php:146 includes/widgets/progress.php:208
+#: includes/widgets/icon-list.php:339 includes/widgets/image.php:325
 msgid "Height"
 msgstr "Chiều cao"
 
@@ -3835,35 +3829,37 @@ msgstr "Rộng"
 msgid "Narrow"
 msgstr "Hẹp"
 
-#: modules/system-info/module.php:128 modules/system-info/module.php:157
 #: core/common/modules/finder/categories/general.php:50
+#: modules/system-info/module.php:128 modules/system-info/module.php:157
 msgid "System Info"
 msgstr "Thông tin hệ thống"
 
-#: includes/widgets/testimonial.php:131 includes/widgets/testimonial.php:311
 #: includes/editor-templates/templates.php:109
+#: includes/widgets/testimonial.php:131 includes/widgets/testimonial.php:311
 msgid "Name"
 msgstr "Tên"
 
-#: includes/widgets/image-gallery.php:148 includes/widgets/audio.php:127
-#: includes/widgets/image.php:225 includes/widgets/image-carousel.php:151
+#: core/editor/editor.php:684 includes/controls/switcher.php:74
+#: includes/managers/icons.php:340 includes/widgets/audio.php:127
+#: includes/widgets/image-gallery.php:148
+#: includes/widgets/image-carousel.php:151
 #: includes/widgets/image-carousel.php:209
 #: includes/widgets/image-carousel.php:258
 #: includes/widgets/image-carousel.php:273
 #: includes/widgets/image-carousel.php:291
-#: includes/widgets/image-carousel.php:324 includes/managers/icons.php:340
-#: includes/controls/switcher.php:74 core/editor/editor.php:683
+#: includes/widgets/image-carousel.php:324 includes/widgets/image.php:225
 msgid "No"
 msgstr "Không"
 
-#: includes/widgets/image-gallery.php:147 includes/widgets/audio.php:126
-#: includes/widgets/image.php:224 includes/widgets/image-carousel.php:152
+#: core/editor/editor.php:697 includes/controls/switcher.php:75
+#: includes/managers/icons.php:341 includes/widgets/audio.php:126
+#: includes/widgets/image-gallery.php:147
+#: includes/widgets/image-carousel.php:152
 #: includes/widgets/image-carousel.php:208
 #: includes/widgets/image-carousel.php:257
 #: includes/widgets/image-carousel.php:272
 #: includes/widgets/image-carousel.php:290
-#: includes/widgets/image-carousel.php:323 includes/managers/icons.php:341
-#: includes/controls/switcher.php:75 core/editor/editor.php:696
+#: includes/widgets/image-carousel.php:323 includes/widgets/image.php:224
 msgid "Yes"
 msgstr "Có"
 
@@ -3887,76 +3883,76 @@ msgstr "Bạn có thể sao chép thông tin dưới dạng văn bản đơn gi�
 msgid "Copy & Paste Info"
 msgstr "Sao chép & Dán thông tin"
 
-#: includes/widgets/video.php:692 includes/widgets/alert.php:172
-#: includes/widgets/button.php:320 includes/widgets/button.php:355
-#: includes/widgets/image.php:572 includes/widgets/tabs.php:231
-#: includes/widgets/progress.php:197
-#: core/kits/documents/tabs/theme-style-form-fields.php:177
+#: core/kits/documents/tabs/settings-lightbox.php:118
 #: core/kits/documents/tabs/theme-style-buttons.php:98
 #: core/kits/documents/tabs/theme-style-buttons.php:164
-#: core/kits/documents/tabs/settings-lightbox.php:118
+#: core/kits/documents/tabs/theme-style-form-fields.php:177
+#: includes/widgets/button.php:320 includes/widgets/button.php:355
+#: includes/widgets/alert.php:172 includes/widgets/progress.php:197
+#: includes/widgets/video.php:692 includes/widgets/image.php:572
+#: includes/widgets/tabs.php:231
 msgid "Background Color"
 msgstr "Màu nền"
 
-#: includes/widgets/divider.php:501 includes/widgets/divider.php:767
-#: includes/widgets/counter.php:211 includes/widgets/toggle.php:141
-#: includes/widgets/accordion.php:140 includes/widgets/image-gallery.php:172
-#: includes/widgets/heading.php:206 includes/widgets/video.php:476
-#: includes/widgets/alert.php:153 includes/widgets/button.php:245
-#: includes/widgets/spacer.php:133 includes/widgets/text-editor.php:255
-#: includes/widgets/audio.php:251 includes/widgets/google-maps.php:163
-#: includes/widgets/image.php:236 includes/widgets/social-icons.php:327
-#: includes/widgets/icon.php:123 includes/widgets/testimonial.php:209
-#: includes/widgets/tabs.php:143 includes/widgets/progress.php:164
-#: includes/widgets/icon-box.php:108 includes/widgets/image-box.php:206
-#: includes/widgets/image-carousel.php:235
+#: includes/widgets/button.php:245 includes/widgets/alert.php:153
+#: includes/widgets/google-maps.php:163 includes/widgets/audio.php:251
+#: includes/widgets/icon-box.php:108 includes/widgets/icon.php:123
+#: includes/widgets/text-editor.php:255 includes/widgets/spacer.php:133
+#: includes/widgets/image-gallery.php:172 includes/widgets/image-box.php:206
+#: includes/widgets/social-icons.php:323 includes/widgets/progress.php:164
+#: includes/widgets/heading.php:206 includes/widgets/divider.php:501
+#: includes/widgets/divider.php:767 includes/widgets/image-carousel.php:235
+#: includes/widgets/video.php:476 includes/widgets/counter.php:211
+#: includes/widgets/accordion.php:140 includes/widgets/image.php:236
+#: includes/widgets/tabs.php:143 includes/widgets/testimonial.php:209
+#: includes/widgets/toggle.php:141
 msgid "View"
 msgstr "Xem"
 
-#: includes/widgets/common.php:67 includes/widgets/star-rating.php:158
-#: includes/widgets/star-rating.php:202 includes/widgets/counter.php:197
-#: includes/widgets/counter.php:257 includes/widgets/toggle.php:294
-#: includes/widgets/accordion.php:270 includes/widgets/heading.php:104
-#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
-#: includes/widgets/alert.php:213 includes/widgets/testimonial.php:143
-#: includes/widgets/testimonial.php:348 includes/widgets/tabs.php:243
-#: includes/widgets/progress.php:95 includes/widgets/icon-box.php:508
-#: includes/widgets/image-box.php:442 includes/widgets/image-carousel.php:225
-#: includes/elements/column.php:120 includes/elements/section.php:236
+#: core/base/document.php:1246
 #: core/kits/documents/tabs/settings-lightbox.php:84
 #: core/kits/documents/tabs/settings-lightbox.php:88
 #: core/kits/documents/tabs/settings-lightbox.php:105
-#: core/base/document.php:1246
+#: includes/elements/section.php:236 includes/elements/column.php:120
+#: includes/widgets/alert.php:213 includes/widgets/icon-box.php:508
+#: includes/widgets/common.php:67 includes/widgets/image-box.php:442
+#: includes/widgets/progress.php:95 includes/widgets/heading.php:104
+#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
+#: includes/widgets/image-carousel.php:225 includes/widgets/counter.php:197
+#: includes/widgets/counter.php:257 includes/widgets/accordion.php:270
+#: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
+#: includes/widgets/tabs.php:243 includes/widgets/testimonial.php:143
+#: includes/widgets/testimonial.php:348 includes/widgets/toggle.php:294
 msgid "Title"
 msgstr "Tiêu đề"
 
-#: includes/widgets/counter.php:174 includes/widgets/image-gallery.php:268
+#: includes/elements/section.php:1325 includes/elements/section.php:1338
+#: includes/elements/section.php:1351 includes/widgets/alert.php:145
+#: includes/widgets/audio.php:154 includes/widgets/audio.php:165
+#: includes/widgets/audio.php:176 includes/widgets/audio.php:187
+#: includes/widgets/audio.php:201 includes/widgets/audio.php:212
+#: includes/widgets/audio.php:223 includes/widgets/audio.php:234
+#: includes/widgets/image-gallery.php:268 includes/widgets/progress.php:143
 #: includes/widgets/video.php:317 includes/widgets/video.php:331
 #: includes/widgets/video.php:357 includes/widgets/video.php:400
 #: includes/widgets/video.php:414 includes/widgets/video.php:428
 #: includes/widgets/video.php:454 includes/widgets/video.php:496
-#: includes/widgets/alert.php:145 includes/widgets/audio.php:154
-#: includes/widgets/audio.php:165 includes/widgets/audio.php:176
-#: includes/widgets/audio.php:187 includes/widgets/audio.php:201
-#: includes/widgets/audio.php:212 includes/widgets/audio.php:223
-#: includes/widgets/audio.php:234 includes/widgets/progress.php:143
-#: includes/elements/section.php:1325 includes/elements/section.php:1338
-#: includes/elements/section.php:1351
+#: includes/widgets/counter.php:174
 msgid "Hide"
 msgstr "Ẩn"
 
-#: includes/widgets/counter.php:173 includes/widgets/image-gallery.php:267
+#: includes/elements/section.php:1326 includes/elements/section.php:1339
+#: includes/elements/section.php:1352 includes/widgets/alert.php:144
+#: includes/widgets/audio.php:155 includes/widgets/audio.php:166
+#: includes/widgets/audio.php:177 includes/widgets/audio.php:188
+#: includes/widgets/audio.php:202 includes/widgets/audio.php:213
+#: includes/widgets/audio.php:224 includes/widgets/audio.php:235
+#: includes/widgets/image-gallery.php:267 includes/widgets/progress.php:142
 #: includes/widgets/video.php:318 includes/widgets/video.php:332
 #: includes/widgets/video.php:358 includes/widgets/video.php:401
 #: includes/widgets/video.php:415 includes/widgets/video.php:429
 #: includes/widgets/video.php:455 includes/widgets/video.php:497
-#: includes/widgets/alert.php:144 includes/widgets/audio.php:155
-#: includes/widgets/audio.php:166 includes/widgets/audio.php:177
-#: includes/widgets/audio.php:188 includes/widgets/audio.php:202
-#: includes/widgets/audio.php:213 includes/widgets/audio.php:224
-#: includes/widgets/audio.php:235 includes/widgets/progress.php:142
-#: includes/elements/section.php:1326 includes/elements/section.php:1339
-#: includes/elements/section.php:1352
+#: includes/widgets/counter.php:173
 msgid "Show"
 msgstr "Hiện"
 
@@ -3968,79 +3964,79 @@ msgstr "Nút bỏ qua"
 msgid "I am a description. Click the edit button to change this text."
 msgstr "Tớ là mô tả. Bấm vào nút sửa để thay đổi đoạn văn này."
 
-#: includes/widgets/toggle.php:98 includes/widgets/accordion.php:97
-#: includes/widgets/alert.php:111 includes/widgets/tabs.php:98
-#: includes/widgets/icon-box.php:141 includes/widgets/image-box.php:118
+#: includes/widgets/alert.php:111 includes/widgets/icon-box.php:141
+#: includes/widgets/image-box.php:118 includes/widgets/accordion.php:97
+#: includes/widgets/tabs.php:98 includes/widgets/toggle.php:98
 msgid "Title & Description"
 msgstr "Tiêu đề & Mô tả"
 
-#: includes/widgets/alert.php:102 includes/widgets/button.php:127
+#: includes/widgets/button.php:127 includes/widgets/alert.php:102
 #: includes/widgets/progress.php:117
 msgid "Danger"
 msgstr "Danger"
 
-#: includes/widgets/alert.php:101 includes/widgets/button.php:126
+#: includes/widgets/button.php:126 includes/widgets/alert.php:101
 #: includes/widgets/progress.php:116
 msgid "Warning"
 msgstr "Warning"
 
-#: includes/widgets/alert.php:100 includes/widgets/button.php:125
+#: includes/widgets/button.php:125 includes/widgets/alert.php:100
 #: includes/widgets/progress.php:115
 msgid "Success"
 msgstr "Success"
 
-#: includes/widgets/alert.php:99 includes/widgets/button.php:124
+#: includes/widgets/button.php:124 includes/widgets/alert.php:99
 #: includes/widgets/progress.php:114 assets/js/app-packages.js:9149
 msgid "Info"
 msgstr "Info"
 
 #: includes/template-library/sources/local.php:1609
-#: includes/widgets/alert.php:95 includes/widgets/button.php:119
-#: includes/widgets/tabs.php:152 includes/widgets/progress.php:109
 #: includes/editor-templates/templates.php:113
-#: includes/elements/section.php:929
+#: includes/elements/section.php:929 includes/widgets/button.php:119
+#: includes/widgets/alert.php:95 includes/widgets/progress.php:109
+#: includes/widgets/tabs.php:152
 msgid "Type"
 msgstr "Kiểu"
 
-#: includes/widgets/toggle.php:255 includes/widgets/accordion.php:255
-#: includes/widgets/alert.php:183 includes/widgets/button.php:366
-#: includes/widgets/social-icons.php:527 includes/widgets/tabs.php:220
+#: includes/widgets/button.php:366 includes/widgets/alert.php:183
+#: includes/widgets/social-icons.php:523 includes/widgets/accordion.php:255
+#: includes/widgets/tabs.php:220 includes/widgets/toggle.php:255
 msgid "Border Color"
 msgstr "Màu viền"
 
-#: includes/widgets/toggle.php:328 includes/widgets/toggle.php:410
 #: includes/widgets/accordion.php:303 includes/widgets/accordion.php:385
-#: includes/widgets/tabs.php:266
+#: includes/widgets/tabs.php:266 includes/widgets/toggle.php:328
+#: includes/widgets/toggle.php:410
 msgid "Active Color"
 msgstr "Màu sắc khi Kích hoạt"
 
+#: includes/widgets/button.php:192 includes/widgets/icon-box.php:373
+#: includes/widgets/icon.php:298 includes/widgets/text-editor.php:300
+#: includes/widgets/social-icons.php:384 includes/widgets/heading.php:139
 #: includes/widgets/divider.php:594 includes/widgets/divider.php:782
-#: includes/widgets/star-rating.php:266 includes/widgets/heading.php:139
-#: includes/widgets/video.php:639 includes/widgets/button.php:192
-#: includes/widgets/text-editor.php:300 includes/widgets/icon-list.php:425
-#: includes/widgets/social-icons.php:388 includes/widgets/icon.php:298
-#: includes/widgets/icon-box.php:373 includes/widgets/image-carousel.php:416
-#: includes/widgets/image-carousel.php:479
+#: includes/widgets/image-carousel.php:416
+#: includes/widgets/image-carousel.php:479 includes/widgets/video.php:639
+#: includes/widgets/icon-list.php:425 includes/widgets/star-rating.php:266
 msgid "Size"
 msgstr "Kích thước"
 
-#: includes/widgets/star-rating.php:186 includes/widgets/image-gallery.php:295
-#: includes/widgets/heading.php:192 includes/widgets/button.php:180
-#: includes/widgets/text-editor.php:204 includes/widgets/image.php:543
-#: includes/widgets/icon-box.php:480 includes/widgets/image-box.php:414
-#: includes/widgets/image-carousel.php:640
+#: includes/widgets/button.php:180 includes/widgets/icon-box.php:480
+#: includes/widgets/text-editor.php:204 includes/widgets/image-gallery.php:295
+#: includes/widgets/image-box.php:414 includes/widgets/heading.php:192
+#: includes/widgets/image-carousel.php:640 includes/widgets/image.php:543
+#: includes/widgets/star-rating.php:186
 msgid "Justified"
 msgstr "Căn đều hai lề"
 
-#: includes/widgets/divider.php:448 includes/widgets/star-rating.php:170
-#: includes/widgets/toggle.php:378 includes/widgets/accordion.php:353
-#: includes/widgets/image-gallery.php:279 includes/widgets/heading.php:176
-#: includes/widgets/button.php:164 includes/widgets/text-editor.php:188
+#: includes/widgets/button.php:164 includes/widgets/icon-box.php:464
+#: includes/widgets/icon.php:167 includes/widgets/text-editor.php:188
+#: includes/widgets/image-gallery.php:279 includes/widgets/image-box.php:398
+#: includes/widgets/social-icons.php:297 includes/widgets/heading.php:176
+#: includes/widgets/divider.php:448 includes/widgets/image-carousel.php:624
 #: includes/widgets/icon-list.php:238 includes/widgets/icon-list.php:445
-#: includes/widgets/image.php:134 includes/widgets/image.php:527
-#: includes/widgets/social-icons.php:297 includes/widgets/icon.php:167
-#: includes/widgets/testimonial.php:185 includes/widgets/icon-box.php:464
-#: includes/widgets/image-box.php:398 includes/widgets/image-carousel.php:624
+#: includes/widgets/accordion.php:353 includes/widgets/image.php:134
+#: includes/widgets/image.php:527 includes/widgets/star-rating.php:170
+#: includes/widgets/testimonial.php:185 includes/widgets/toggle.php:378
 msgid "Alignment"
 msgstr "Căn chỉnh"
 
@@ -4052,15 +4048,15 @@ msgstr "XXL"
 msgid "XL"
 msgstr "XL"
 
-#: includes/widgets/heading.php:146 includes/widgets/button.php:95
+#: includes/widgets/button.php:95 includes/widgets/heading.php:146
 msgid "Large"
 msgstr "Lớn"
 
-#: includes/widgets/heading.php:145 includes/widgets/button.php:94
+#: includes/widgets/button.php:94 includes/widgets/heading.php:145
 msgid "Medium"
 msgstr "Trung bình"
 
-#: includes/widgets/heading.php:144 includes/widgets/button.php:93
+#: includes/widgets/button.php:93 includes/widgets/heading.php:144
 msgid "Small"
 msgstr "Nhỏ"
 
@@ -4069,74 +4065,74 @@ msgstr "Nhỏ"
 msgid "Button"
 msgstr "Nút"
 
-#: includes/controls/popover-toggle.php:69 core/editor/editor.php:596
-#: core/common/modules/finder/categories/edit.php:30
+#: core/common/modules/finder/categories/edit.php:30 core/editor/editor.php:597
+#: includes/controls/popover-toggle.php:69
 msgid "Edit"
 msgstr "Sửa"
 
-#: includes/widgets/common.php:746 includes/elements/column.php:886
-#: includes/elements/section.php:1347
+#: includes/elements/section.php:1347 includes/elements/column.php:886
+#: includes/widgets/common.php:746
 msgid "Hide On Mobile"
 msgstr "Ẩn trên Điện thoại"
 
-#: includes/widgets/common.php:733 includes/elements/column.php:873
-#: includes/elements/section.php:1334
+#: includes/elements/section.php:1334 includes/elements/column.php:873
+#: includes/widgets/common.php:733
 msgid "Hide On Tablet"
 msgstr "Ẩn trên Máy tính bảng"
 
-#: includes/widgets/common.php:720 includes/elements/column.php:860
-#: includes/elements/section.php:1321
+#: includes/elements/section.php:1321 includes/elements/column.php:860
+#: includes/widgets/common.php:720
 msgid "Hide On Desktop"
 msgstr "Ẩn trên Máy tính"
 
-#: includes/widgets/common.php:289 includes/widgets/common.php:326
-#: includes/widgets/divider.php:930 includes/widgets/image-gallery.php:241
-#: includes/widgets/button.php:401 includes/widgets/text-editor.php:342
-#: includes/widgets/image.php:491 includes/widgets/social-icons.php:474
-#: includes/widgets/icon.php:372 includes/widgets/testimonial.php:296
-#: includes/widgets/progress.php:219 includes/widgets/icon-box.php:439
-#: includes/widgets/image-box.php:276 includes/widgets/image-carousel.php:599
-#: includes/elements/column.php:506 includes/elements/column.php:543
-#: includes/elements/section.php:798 includes/elements/section.php:834
-#: core/kits/documents/tabs/theme-style-form-fields.php:210
 #: core/kits/documents/tabs/theme-style-images.php:71
 #: core/kits/documents/tabs/theme-style-images.php:142
 #: core/kits/documents/tabs/theme-style-buttons.php:131
 #: core/kits/documents/tabs/theme-style-buttons.php:197
+#: core/kits/documents/tabs/theme-style-form-fields.php:210
+#: includes/elements/section.php:798 includes/elements/section.php:834
+#: includes/elements/column.php:506 includes/elements/column.php:543
+#: includes/widgets/button.php:401 includes/widgets/icon-box.php:439
+#: includes/widgets/icon.php:372 includes/widgets/text-editor.php:342
+#: includes/widgets/image-gallery.php:241 includes/widgets/common.php:289
+#: includes/widgets/common.php:326 includes/widgets/image-box.php:276
+#: includes/widgets/social-icons.php:470 includes/widgets/progress.php:219
+#: includes/widgets/divider.php:930 includes/widgets/image-carousel.php:599
+#: includes/widgets/image.php:491 includes/widgets/testimonial.php:296
 msgid "Border Radius"
 msgstr "Độ cong Viền"
 
-#: includes/widgets/alert.php:245 includes/widgets/icon-box.php:560
-#: includes/widgets/image-box.php:494 includes/widgets/image-carousel.php:227
-#: includes/compatibility.php:178
 #: core/kits/documents/tabs/settings-lightbox.php:91
 #: core/kits/documents/tabs/settings-lightbox.php:101
 #: core/kits/documents/tabs/settings-lightbox.php:108
+#: includes/compatibility.php:178 includes/widgets/alert.php:245
+#: includes/widgets/icon-box.php:560 includes/widgets/image-box.php:494
+#: includes/widgets/image-carousel.php:227
 msgid "Description"
 msgstr "Mô tả"
 
+#: includes/controls/media.php:158 includes/widgets/image-box.php:95
 #: includes/widgets/video.php:504 includes/widgets/image.php:111
-#: includes/widgets/testimonial.php:108 includes/widgets/image-box.php:95
-#: includes/controls/media.php:152
+#: includes/widgets/testimonial.php:108
 msgid "Choose Image"
 msgstr "Chọn Ảnh"
 
+#: includes/widgets/image-box.php:217 includes/widgets/image-carousel.php:515
 #: includes/widgets/image.php:45 includes/widgets/image.php:104
 #: includes/widgets/image.php:247 includes/widgets/testimonial.php:258
-#: includes/widgets/image-box.php:217 includes/widgets/image-carousel.php:515
 msgid "Image"
 msgstr "Hình ảnh"
 
-#: includes/widgets/common.php:264 includes/elements/column.php:481
-#: includes/elements/section.php:774
+#: includes/elements/section.php:774 includes/elements/column.php:481
+#: includes/widgets/common.php:264
 msgid "Border"
 msgstr "Viền"
 
-#: includes/widgets/button.php:217 core/dynamic-tags/tag.php:102
+#: core/dynamic-tags/tag.php:102 includes/widgets/button.php:217
 msgid "After"
 msgstr "Sau"
 
-#: includes/widgets/button.php:216 core/dynamic-tags/tag.php:95
+#: core/dynamic-tags/tag.php:95 includes/widgets/button.php:216
 msgid "Before"
 msgstr "Trước"
 
@@ -4144,21 +4140,21 @@ msgstr "Trước"
 msgid "Icon Position"
 msgstr "Vị trí Icon"
 
-#: includes/widgets/divider.php:487 includes/widgets/divider.php:525
-#: includes/widgets/divider.php:756 includes/widgets/star-rating.php:123
-#: includes/widgets/toggle.php:150 includes/widgets/toggle.php:367
-#: includes/widgets/accordion.php:149 includes/widgets/accordion.php:342
-#: includes/widgets/button.php:203 includes/widgets/icon-list.php:134
-#: includes/widgets/icon-list.php:388 includes/widgets/social-icons.php:94
-#: includes/widgets/social-icons.php:338 includes/widgets/icon.php:44
+#: includes/widgets/button.php:203 includes/widgets/icon-box.php:95
+#: includes/widgets/icon-box.php:241 includes/widgets/icon.php:44
 #: includes/widgets/icon.php:103 includes/widgets/icon.php:110
-#: includes/widgets/icon.php:195 includes/widgets/icon-box.php:95
-#: includes/widgets/icon-box.php:241
+#: includes/widgets/icon.php:195 includes/widgets/social-icons.php:94
+#: includes/widgets/social-icons.php:334 includes/widgets/divider.php:487
+#: includes/widgets/divider.php:525 includes/widgets/divider.php:756
+#: includes/widgets/icon-list.php:134 includes/widgets/icon-list.php:388
+#: includes/widgets/accordion.php:149 includes/widgets/accordion.php:342
+#: includes/widgets/star-rating.php:123 includes/widgets/toggle.php:150
+#: includes/widgets/toggle.php:367
 msgid "Icon"
 msgstr "Icon"
 
-#: includes/widgets/video.php:277 includes/widgets/audio.php:144
-#: includes/widgets/image-carousel.php:253
+#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:253
+#: includes/widgets/video.php:277
 msgid "Autoplay"
 msgstr "Tự động chơi"
 
@@ -4166,18 +4162,19 @@ msgstr "Tự động chơi"
 msgid "Google Maps"
 msgstr "Google Maps"
 
-#: includes/widgets/image-gallery.php:255 includes/widgets/image.php:159
-#: includes/widgets/image.php:516 includes/widgets/image-carousel.php:220
-#: includes/widgets/image-carousel.php:226
-#: includes/widgets/image-carousel.php:613
 #: core/kits/documents/tabs/settings-lightbox.php:89
 #: core/kits/documents/tabs/settings-lightbox.php:106
+#: includes/widgets/image-gallery.php:255
+#: includes/widgets/image-carousel.php:220
+#: includes/widgets/image-carousel.php:226
+#: includes/widgets/image-carousel.php:613 includes/widgets/image.php:159
+#: includes/widgets/image.php:516
 msgid "Caption"
 msgstr "Chú thích"
 
-#: includes/widgets/image-gallery.php:183
 #: core/kits/documents/tabs/theme-style-images.php:21
 #: core/kits/documents/tabs/theme-style-images.php:39 core/kits/manager.php:122
+#: includes/widgets/image-gallery.php:183
 msgid "Images"
 msgstr "Hình ảnh"
 
@@ -4185,8 +4182,8 @@ msgstr "Hình ảnh"
 msgid "Random"
 msgstr "Ngẫu nhiên"
 
-#: includes/widgets/image-gallery.php:132 includes/widgets/image.php:194
-#: includes/widgets/image-carousel.php:181
+#: includes/widgets/image-gallery.php:132
+#: includes/widgets/image-carousel.php:181 includes/widgets/image.php:194
 msgid "Media File"
 msgstr "Tệp Media"
 
@@ -4194,8 +4191,8 @@ msgstr "Tệp Media"
 msgid "Attachment Page"
 msgstr "Trang đính kèm"
 
-#: includes/widgets/image-gallery.php:94 includes/widgets/image-carousel.php:95
-#: includes/controls/gallery.php:88
+#: includes/controls/gallery.php:88 includes/widgets/image-gallery.php:94
+#: includes/widgets/image-carousel.php:95
 msgid "Add Images"
 msgstr "Thêm hình ảnh"
 
@@ -4203,24 +4200,24 @@ msgstr "Thêm hình ảnh"
 msgid "Image Gallery"
 msgstr "Thư viện hình ảnh"
 
-#: includes/widgets/divider.php:553 includes/widgets/divider.php:688
-#: includes/widgets/star-rating.php:301 includes/widgets/toggle.php:314
-#: includes/widgets/toggle.php:398 includes/widgets/toggle.php:461
-#: includes/widgets/accordion.php:289 includes/widgets/accordion.php:373
-#: includes/widgets/accordion.php:436 includes/widgets/video.php:624
-#: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
-#: includes/widgets/social-icons.php:185 includes/widgets/social-icons.php:346
-#: includes/widgets/tabs.php:252 includes/widgets/tabs.php:300
-#: includes/widgets/progress.php:183 includes/widgets/progress.php:240
-#: includes/widgets/icon-box.php:534 includes/widgets/icon-box.php:569
-#: includes/widgets/image-box.php:468 includes/widgets/image-box.php:503
-#: includes/widgets/image-carousel.php:436
-#: includes/widgets/image-carousel.php:499 includes/controls/box-shadow.php:104
-#: includes/controls/text-shadow.php:97 includes/elements/section.php:940
-#: core/kits/documents/tabs/theme-style-form-fields.php:66
 #: core/kits/documents/tabs/theme-style-typography.php:121
 #: core/kits/documents/tabs/theme-style-typography.php:151
 #: core/kits/documents/tabs/theme-style-typography.php:197
+#: core/kits/documents/tabs/theme-style-form-fields.php:66
+#: includes/controls/box-shadow.php:104 includes/controls/text-shadow.php:97
+#: includes/elements/section.php:940 includes/widgets/icon-box.php:534
+#: includes/widgets/icon-box.php:569 includes/widgets/image-box.php:468
+#: includes/widgets/image-box.php:503 includes/widgets/social-icons.php:185
+#: includes/widgets/social-icons.php:342 includes/widgets/progress.php:183
+#: includes/widgets/progress.php:240 includes/widgets/divider.php:553
+#: includes/widgets/divider.php:688 includes/widgets/image-carousel.php:436
+#: includes/widgets/image-carousel.php:499 includes/widgets/video.php:624
+#: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
+#: includes/widgets/accordion.php:289 includes/widgets/accordion.php:373
+#: includes/widgets/accordion.php:436 includes/widgets/star-rating.php:301
+#: includes/widgets/tabs.php:252 includes/widgets/tabs.php:300
+#: includes/widgets/toggle.php:314 includes/widgets/toggle.php:398
+#: includes/widgets/toggle.php:461
 msgid "Color"
 msgstr "Màu sắc"
 
@@ -4232,11 +4229,11 @@ msgstr "Độ đậm"
 msgid "Icon List"
 msgstr "Danh sách Icon"
 
-#: includes/widgets/button.php:154 includes/widgets/icon-list.php:152
-#: includes/widgets/image.php:208 includes/widgets/social-icons.php:178
-#: includes/widgets/icon.php:160 includes/widgets/testimonial.php:160
-#: includes/widgets/icon-box.php:176 includes/widgets/image-box.php:153
-#: includes/widgets/image-carousel.php:192
+#: includes/widgets/button.php:154 includes/widgets/icon-box.php:176
+#: includes/widgets/icon.php:160 includes/widgets/image-box.php:153
+#: includes/widgets/social-icons.php:178
+#: includes/widgets/image-carousel.php:192 includes/widgets/icon-list.php:152
+#: includes/widgets/image.php:208 includes/widgets/testimonial.php:160
 msgid "https://your-link.com"
 msgstr "https://your-link.com"
 
@@ -4256,14 +4253,14 @@ msgstr "Mã HTML"
 msgid "HTML"
 msgstr "HTML"
 
-#: includes/widgets/heading.php:156 includes/elements/column.php:240
-#: includes/elements/section.php:483
+#: includes/elements/section.php:483 includes/elements/column.php:240
+#: includes/widgets/heading.php:156
 msgid "HTML Tag"
 msgstr "Thẻ HTML"
 
-#: includes/widgets/heading.php:116 includes/widgets/alert.php:113
-#: includes/widgets/progress.php:100 includes/widgets/icon-box.php:147
-#: includes/widgets/image-box.php:124
+#: includes/widgets/alert.php:113 includes/widgets/icon-box.php:147
+#: includes/widgets/image-box.php:124 includes/widgets/progress.php:100
+#: includes/widgets/heading.php:116
 msgid "Enter your title"
 msgstr "Nhập tiêu đề của bạn"
 
@@ -4283,60 +4280,60 @@ msgstr "Bản đồ"
 msgid "Image Box"
 msgstr "Hộp hình ảnh"
 
-#: includes/widgets/social-icons.php:488
+#: includes/widgets/social-icons.php:484
 msgid "Icon Hover"
 msgstr "Icon khi di chuột"
 
-#: includes/widgets/divider.php:916 includes/widgets/toggle.php:237
-#: includes/widgets/accordion.php:236 includes/widgets/text-editor.php:361
-#: includes/widgets/icon.php:358 includes/widgets/tabs.php:200
-#: includes/widgets/icon-box.php:425
+#: includes/widgets/icon-box.php:425 includes/widgets/icon.php:358
+#: includes/widgets/text-editor.php:361 includes/widgets/divider.php:916
+#: includes/widgets/accordion.php:236 includes/widgets/tabs.php:200
+#: includes/widgets/toggle.php:237
 msgid "Border Width"
 msgstr "Độ rộng viền"
 
-#: includes/widgets/divider.php:894 includes/widgets/icon.php:336
-#: includes/widgets/icon-box.php:410
+#: includes/widgets/icon-box.php:410 includes/widgets/icon.php:336
+#: includes/widgets/divider.php:894
 msgid "Rotate"
 msgstr "Xoay"
 
-#: includes/widgets/divider.php:836 includes/widgets/text-editor.php:285
-#: includes/widgets/social-icons.php:212 includes/widgets/social-icons.php:373
-#: includes/widgets/social-icons.php:511 includes/widgets/icon.php:229
-#: includes/widgets/icon.php:269 includes/widgets/icon-box.php:284
-#: includes/widgets/icon-box.php:322
+#: includes/widgets/icon-box.php:284 includes/widgets/icon-box.php:322
+#: includes/widgets/icon.php:229 includes/widgets/icon.php:269
+#: includes/widgets/text-editor.php:285 includes/widgets/social-icons.php:212
+#: includes/widgets/social-icons.php:369 includes/widgets/social-icons.php:507
+#: includes/widgets/divider.php:836
 msgid "Secondary Color"
 msgstr "Màu sắc phụ"
 
-#: includes/widgets/divider.php:819 includes/widgets/text-editor.php:270
-#: includes/widgets/social-icons.php:198 includes/widgets/social-icons.php:359
-#: includes/widgets/social-icons.php:496 includes/widgets/icon.php:212
-#: includes/widgets/icon.php:255 includes/widgets/icon-box.php:268
-#: includes/widgets/icon-box.php:309
+#: includes/widgets/icon-box.php:268 includes/widgets/icon-box.php:309
+#: includes/widgets/icon.php:212 includes/widgets/icon.php:255
+#: includes/widgets/text-editor.php:270 includes/widgets/social-icons.php:198
+#: includes/widgets/social-icons.php:355 includes/widgets/social-icons.php:492
+#: includes/widgets/divider.php:819
 msgid "Primary Color"
 msgstr "Màu sắc chính"
 
-#: includes/widgets/social-icons.php:262 includes/widgets/icon.php:142
-#: includes/widgets/icon-box.php:127
+#: includes/widgets/icon-box.php:127 includes/widgets/icon.php:142
+#: includes/widgets/social-icons.php:262
 msgid "Square"
 msgstr "Hình vuông"
 
-#: includes/widgets/social-icons.php:263 includes/widgets/icon.php:141
-#: includes/widgets/icon-box.php:126
+#: includes/widgets/icon-box.php:126 includes/widgets/icon.php:141
+#: includes/widgets/social-icons.php:263
 msgid "Circle"
 msgstr "Hình tròn"
 
-#: includes/widgets/social-icons.php:257 includes/widgets/icon.php:138
-#: includes/widgets/icon-box.php:123
+#: includes/widgets/icon-box.php:123 includes/widgets/icon.php:138
+#: includes/widgets/social-icons.php:257
 msgid "Shape"
 msgstr "Hình dạng"
 
-#: includes/widgets/divider.php:772 includes/widgets/text-editor.php:260
-#: includes/widgets/icon.php:128 includes/widgets/icon-box.php:113
+#: includes/widgets/icon-box.php:113 includes/widgets/icon.php:128
+#: includes/widgets/text-editor.php:260 includes/widgets/divider.php:772
 msgid "Framed"
 msgstr "Đóng khung"
 
-#: includes/widgets/divider.php:771 includes/widgets/text-editor.php:259
-#: includes/widgets/icon.php:127 includes/widgets/icon-box.php:112
+#: includes/widgets/icon-box.php:112 includes/widgets/icon.php:127
+#: includes/widgets/text-editor.php:259 includes/widgets/divider.php:771
 msgid "Stacked"
 msgstr "Xếp chồng"
 
@@ -4381,7 +4378,7 @@ msgstr "ID của Menu Neo Liên kết."
 msgid "This ID will be the CSS ID you will have to use in your own page, Without #."
 msgstr "ID này sẽ là ID CSS bạn nên sử dụng trong trang của bạn, mà không có #."
 
-#: includes/widgets/testimonial.php:167 includes/widgets/image-box.php:161
+#: includes/widgets/image-box.php:161 includes/widgets/testimonial.php:167
 msgid "Image Position"
 msgstr "Vị trí hình ảnh"
 
@@ -4570,30 +4567,30 @@ msgctxt "Typography Control"
 msgid "Line-Height"
 msgstr "Line-height"
 
-#: includes/elements/section.php:78 modules/library/documents/section.php:52
-#: core/editor/editor.php:688
+#: core/editor/editor.php:689 modules/library/documents/section.php:52
+#: includes/elements/section.php:78
 msgid "Section"
 msgstr "Section"
 
-#: includes/widgets/common.php:128 includes/elements/column.php:753
-#: includes/elements/section.php:1202
+#: includes/elements/section.php:1202 includes/elements/column.php:753
+#: includes/widgets/common.php:128
 msgid "CSS Classes"
 msgstr "Class CSS"
 
-#: includes/widgets/common.php:88 includes/widgets/divider.php:799
-#: includes/widgets/toggle.php:353 includes/widgets/toggle.php:486
-#: includes/widgets/accordion.php:328 includes/widgets/accordion.php:461
-#: includes/widgets/button.php:421 includes/widgets/social-icons.php:405
-#: includes/widgets/icon.php:316 includes/widgets/icon-box.php:390
-#: includes/elements/column.php:714 includes/elements/section.php:1163
-#: core/kits/documents/tabs/theme-style-form-fields.php:148
-#: core/kits/documents/tabs/theme-style-buttons.php:213
 #: core/document-types/page-base.php:132
+#: core/kits/documents/tabs/theme-style-buttons.php:213
+#: core/kits/documents/tabs/theme-style-form-fields.php:148
+#: includes/elements/section.php:1163 includes/elements/column.php:714
+#: includes/widgets/button.php:421 includes/widgets/icon-box.php:390
+#: includes/widgets/icon.php:316 includes/widgets/common.php:88
+#: includes/widgets/social-icons.php:401 includes/widgets/divider.php:799
+#: includes/widgets/accordion.php:328 includes/widgets/accordion.php:461
+#: includes/widgets/toggle.php:353 includes/widgets/toggle.php:486
 msgid "Padding"
 msgstr "Padding"
 
-#: includes/widgets/common.php:76 includes/elements/column.php:702
-#: includes/elements/section.php:1144
+#: includes/elements/section.php:1144 includes/elements/column.php:702
+#: includes/widgets/common.php:76
 msgid "Margin"
 msgstr "Margin"
 
@@ -4606,7 +4603,7 @@ msgstr "Thiết lập chung"
 msgid "Secondary Headline"
 msgstr "Tiêu đề phụ"
 
-#: core/editor/editor.php:759
+#: core/editor/editor.php:760
 msgid "Add New Column"
 msgstr "Thêm cột mới"
 
@@ -4627,6 +4624,6 @@ msgctxt "Background Control"
 msgid "Width"
 msgstr "Chiều rộng"
 
-#: core/editor/editor.php:645
+#: core/editor/editor.php:646
 msgid "View Page"
 msgstr "Xem trang"
